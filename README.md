@@ -1,2 +1,3 @@
 # cleep-apps
-Cleep applications list
+
+This repository holds modules.json that contains all applications available for a Cleep device.
