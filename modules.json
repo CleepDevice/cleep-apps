@@ -4,7 +4,7 @@
             "author": "Cleep",
             "category": "APPLICATION",
             "certified": true,
-            "changelog": "### Changes:\n* Migrate to Python3\n* Update after core changes\n* Clean and optimize code\n* Add unit tests",
+            "changelog": "Fixes:\n* Small UI fix\n* Fix audio driver which changed new raspberry pi os",
             "country": null,
             "deps": [],
             "description": "Configure audio on your device",
@@ -14,7 +14,7 @@
             "longdescription": "Application that helps you to configure audio on your device",
             "note": -1,
             "price": 0,
-            "sha256": "9fdbfcbe7aa36bfc9e962bde3f55294ef1bdd41af28f214f4eedbd7673838d1d",
+            "sha256": "5c59e98344fe8a90799a89d37b41c6eb54f01af7dfcefec1bde171b942d80949",
             "tags": [
                 "audio",
                 "sound"
@@ -25,7 +25,7 @@
                 "info": "https://github.com/tangb/cleepmod-audio",
                 "site": null
             },
-            "version": "2.0.0"
+            "version": "2.0.1"
         },
         "cleepbus":{
             "author": "Cleep",
