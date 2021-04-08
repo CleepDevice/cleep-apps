@@ -1,176 +1,37 @@
 {
-    "list": {
-        "audio": {
-            "author": "Cleep",
-            "category": "APPLICATION",
-            "certified": true,
-            "changelog": "Fixes:\n* Small UI fix\n* Fix audio driver which changed new raspberry pi os",
-            "country": null,
-            "deps": [],
-            "description": "Configure audio on your device",
-            "download": "https://github.com/tangb/cleepmod-audio/releases/download/v2.0.0/cleepmod_audio_2.0.0.zip",
-            "icon": "speaker",
-            "label": "Audio",
-            "longdescription": "Application that helps you to configure audio on your device",
-            "note": -1,
-            "price": 0,
-            "sha256": "9fdbfcbe7aa36bfc9e962bde3f55294ef1bdd41af28f214f4eedbd7673838d1d",
-            "tags": [
-                "audio",
-                "sound"
-            ],
-            "urls": {
-                "bugs": "https://github.com/tangb/cleepmod-audio/issues",
-                "help": "https://github.com/tangb/cleepmod-audio/wiki",
-                "info": "https://github.com/tangb/cleepmod-audio",
-                "site": null
-            },
-            "version": "2.0.1"
-        },
-        "cleepbus":{
-            "author": "Cleep",
-            "category": "APPLICATION",
-            "certified": true,
-            "changelog": "### Changes:\n* Migrate to Python3\n* Update after core changes\n* Clean and optimize code\n* Add unit tests\n* Implement external bus commands",
-            "country": null,
-            "deps": [],
-            "description": "Enables communications between all your Cleep devices through your home network",
-            "download": "https://github.com/tangb/cleepmod-cleepbus/releases/download/v2.0.0/cleepmod_cleepbus_2.0.0.zip",
-            "icon": "bus",
-            "label": "Cleepbus",
-            "longdescription": "Application that enables communication between devices",
-            "note": -1,
-            "price": 0,
-            "sha256": "8e49d3af19f7ec59d9ef1a392000a82482e495d99210fe64a35911a793e95597",
-            "tags": [
-                "bus",
-                "communication"
-            ],
-            "urls": {
-                "bugs": "https://github.com/tangb/cleepmod-cleepbus/issues",
-                "help": null,
-                "info": "https://github.com/tangb/cleepmod-cleepbus/",
-                "site": null
-            },
-            "version": "2.0.0"
-        },
-        "network": {
-            "author": "Cleep",
-            "category": "APPLICATION",
-            "certified": true,
-            "changelog": "### Changes:\n* Migrate to Python3\n* Update after core changes\n* Clean and optimize code\n* Add unit tests",
-            "country": null,
-            "deps": [],
-            "description": "Configure how your device connect to your network",
-            "download": "https://github.com/tangb/cleepmod-network/releases/download/v2.0.0/cleepmod_network_2.0.0.zip",
-            "icon": "ethernet",
-            "label": "Network",
-            "longdescription": "Application that helps you to configure device network connection",
-            "note": -1,
-            "price": 0,
-            "sha256": "06fedf779cc6b8a581f65c8fa982c411acbcaa0a8250c857508a645040b6689b",
-            "tags": [
-                "wireless",
-                "wifi",
-                "ethernet"
-            ],
-            "urls": {
-                "bugs": "https://github.com/tangb/cleepmod-network/issues",
-                "help": "https://github.com/tangb/cleepmod-network/wiki/Help",
-                "info": "https://github.com/tangb/cleepmod-network/wiki",
-                "site": null
-            },
-            "version": "2.0.0"
-        },
-        "parameters": {
-            "author": "Cleep",
-            "category": "APPLICATION",
-            "certified": true,
-            "changelog": "### Changes:\n* Migrate to Python3\n* Update after core changes\n* Clean and optimize code\n* Add unit tests\n* Implement NTP time auto-sync if time is invalid at startup (not connected to internet)\n* Synchronize Cleep time with system time to the second",
-            "country": null,
-            "deps": [],
-            "description": "Configure generic parameters of your device",
-            "download": "https://github.com/tangb/cleepmod-parameters/releases/download/v2.0.0/cleepmod_parameters_2.0.0.zip",
-            "icon": "settings",
-            "label": "Parameters",
-            "longdescription": "Application that helps you to configure generic parameters of your device",
-            "note": -1,
-            "price": 0,
-            "sha256": "142d1fe60bf3fa8a068403fdd82cb650e5697368b15c831c19cd37847e70c17d",
-            "tags": [
-                "configuration",
-                "date",
-                "time",
-                "locale",
-                "lang"
-            ],
-            "urls": {
-                "bugs": "https://github.com/tangb/cleepmod-parameters/issues",
-                "help": null,
-                "info": "https://github.com/tangb/cleepmod-parameters",
-                "site": null
-            },
-            "version": "2.0.0"
-        },
-        "system": {
-            "author": "Cleep",
-            "category": "APPLICATION",
-            "certified": true,
-            "changelog": "### Changes:\n* Migrate to Python3\n* Update after core changes\n* Clean and optimize code\n* Add unit tests\n* Move Cleep and App updates to dedicated update app",
-            "country": "",
-            "deps": [],
-            "description": "Helps controlling and monitoring the device",
-            "download": "https://github.com/tangb/cleepmod-system/releases/download/v2.0.0/cleepmod_system_2.0.0.zip",
-            "icon": "heart-pulse",
-            "label": "System",
-            "longdescription": "Application that helps you to configure your system",
-            "note": -1,
-            "price": 0,
-            "sha256": "04e6154a2778bec16423170e422321f089b33258e6e37fa88473692feecf5035",
-            "tags": [
-                "troubleshoot",
-                "monitoring",
-                "log",
-                "rendering",
-                "driver",
-                "backup"
-            ],
-            "urls": {
-                "bugs": "https://github.com/tangb/cleepmod-system/issues",
-                "help": null,
-                "info": "https://github.com/tangb/cleepmod-system",
-                "site": null
-            },
-            "version": "2.0.0"
-        },
-        "update": {
-            "author": "Cleep",
-            "category": "APPLICATION",
-            "certified": true,
-            "changelog": "First application release",
-            "country": null,
-            "deps": [],
-            "description": "Applications and Cleep updater",
-            "download": "https://github.com/tangb/cleepmod-update/releases/download/v1.0.0/cleepmod_update_1.0.0.zip",
-            "icon": "update",
-            "label": "Update",
-            "longdescription": "Manage all Cleep applications and Cleep core updates.",
-            "note": -1,
-            "price": 0,
-            "sha256": "ff50539bc9a34595576b7edc5d95f12a91846a12d1eff472353781b7bd8a1593",
-            "tags": [
-                "update",
-                "application",
-                "module"
-            ],
-            "urls": {
-                "bugs": "https://github.com/tangb/cleepmod-update/issues",
-                "help": null,
-                "info": "https://github.com/tangb/cleepmod-update",
-                "site": null
-            },
-            "version": "1.0.0"
-        }
-    },
-    "update": 1610905683
+  "list": {
+    "teleinfo": {
+      "author": "Cleep",
+      "category": "SERVICE",
+      "changelog": "## v1.1.0 - 2021-04-08\n\n* Migrate to python3\n* Fix after core changes\n* Add unit tests\n* Fix small issues",
+      "confidence": 8.7,
+      "country": "fr",
+      "deps": [],
+      "description": "Gets house power consumption infos from Enedis electric power meter",
+      "icon": "transmission-tower",
+      "label": "Cteleinfo",
+      "longdescription": "This application reads data from Enedis Linky (or older compatible version) house                              power meter and make<br>possible to monitor your house power consumption usage and                              build charts on some useful indicators.",
+      "price": null,
+      "quality": 9.85,
+      "tags": [
+        "electricity",
+        "power",
+        "teleinfo",
+        "enedis",
+        "edf",
+        "erdf",
+        "engie"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-teleinfo/issues",
+        "help": "https://github.com/tangb/cleepmod-teleinfo/wiki",
+        "info": "https://github.com/tangb/cleepmod-teleinfo",
+        "site": "https://www.enedis.fr/"
+      },
+      "version": "1.1.0",
+      "sha256": "888071e8f146dddb4212b50b630b04578cd8aeae95139f1075738a35f244639f",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepmod_teleinfo_v1.1.0.zip"
+    }
+  },
+  "update": 1617917120
 }
