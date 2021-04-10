@@ -60,7 +60,35 @@
       "version": "1.0.1",
       "sha256": "a11b3f63ee89d2bc66bcc4b14598a37de91a14403b63256270e636874f428595",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepmod_fourletterdisplay_v1.0.1.zip"
+    },
+    "network": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## v2.0.1 - 2021-04-10\n\n* Improve memory usage in network scan\n* Improve code quality (lint)",
+      "confidence": 9.2,
+      "country": null,
+      "deps": [],
+      "description": "Configure how your device connect to your network",
+      "icon": "ethernet",
+      "label": "Network",
+      "longdescription": "Application that helps you to configure device network connection",
+      "price": 0,
+      "quality": 9.57,
+      "tags": [
+        "wireless",
+        "wifi",
+        "ethernet"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-network/issues",
+        "help": "https://github.com/tangb/cleepmod-network/wiki/Help",
+        "info": "https://github.com/tangb/cleepmod-network/wiki",
+        "site": null
+      },
+      "version": "2.0.1",
+      "sha256": "05f9b0d83ab8dc1d330a25672665edc33a52a3bde4c90e427eb161f0ba0bf374",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepmod_network_v2.0.1.zip"
     }
   },
-  "update": 1617992475
+  "update": 1618075019
 }
