@@ -88,7 +88,35 @@
       "version": "2.0.1",
       "sha256": "05f9b0d83ab8dc1d330a25672665edc33a52a3bde4c90e427eb161f0ba0bf374",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepmod_network_v2.0.1.zip"
+    },
+    "update": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## v1.0.1 - 2021-04-11\n\n* Fix tests\n* Remove logging forced to TRACE",
+      "confidence": 9.8,
+      "country": null,
+      "deps": [],
+      "description": "Applications and Cleep updater",
+      "icon": "update",
+      "label": "Update",
+      "longdescription": "Manage all Cleep applications and Cleep core updates.",
+      "price": null,
+      "quality": 9.52,
+      "tags": [
+        "update",
+        "application",
+        "module"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-update/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-update",
+        "site": null
+      },
+      "version": "1.0.1",
+      "sha256": "9a61ad4f2af6d73cfbaf199c84562d2669889795f9a697da018a9265af921a13",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepmod_update_v1.0.1.zip"
     }
   },
-  "update": 1618075019
+  "update": 1618137166
 }
