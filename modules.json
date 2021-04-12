@@ -116,7 +116,38 @@
       "version": "1.0.1",
       "sha256": "9a61ad4f2af6d73cfbaf199c84562d2669889795f9a697da018a9265af921a13",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepmod_update_v1.0.1.zip"
+    },
+    "system": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## v2.0.1 - 2021-04-12\n\n* Simplify function parameters checking\n* Fix tests\n* Improve code quality (lint)",
+      "confidence": 7.3,
+      "country": null,
+      "deps": [],
+      "description": "Helps controlling and monitoring the device",
+      "icon": "heart-pulse",
+      "label": "System",
+      "longdescription": "Application that helps you to configure your system",
+      "price": 0,
+      "quality": 9.47,
+      "tags": [
+        "troubleshoot",
+        "monitoring",
+        "log",
+        "rendering",
+        "driver",
+        "backup"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-system/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-system",
+        "site": null
+      },
+      "version": "2.0.1",
+      "sha256": "1cf215ebbf49fa0d68d1d8a05a4773153e230f74593f49cc82f883530fd6f6b6",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepmod_system_v2.0.1.zip"
     }
   },
-  "update": 1618137166
+  "update": 1618224138
 }
