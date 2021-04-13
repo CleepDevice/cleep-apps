@@ -147,7 +147,34 @@
       "version": "2.0.1",
       "sha256": "1cf215ebbf49fa0d68d1d8a05a4773153e230f74593f49cc82f883530fd6f6b6",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepmod_system_v2.0.1.zip"
+    },
+    "cleepbus": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## v2.0.1 - 2021-04-12\n\n* Add postinst script\n* Fix tests\n* Improve code quality (lint)\n* Add missing function send_event_to_peer",
+      "confidence": 10,
+      "country": null,
+      "deps": [],
+      "description": "Enables communications between all your Cleep devices through your home network",
+      "icon": "bus",
+      "label": "Cleepbus",
+      "longdescription": "Application that enables communication between devices",
+      "price": 0,
+      "quality": 8.47,
+      "tags": [
+        "bus",
+        "communication"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-cleepbus/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-cleepbus/",
+        "site": null
+      },
+      "version": "2.0.1",
+      "sha256": "3d6fff24009f3b5da3983dd7c347423650be93be076ab5c27f68ba5203af8ca8",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepmod_cleepbus_v2.0.1.zip"
     }
   },
-  "update": 1618224138
+  "update": 1618309595
 }
