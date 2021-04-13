@@ -151,7 +151,7 @@
     "cleepbus": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.1 - 2021-04-12\n\n* Add postinst script\n* Fix tests\n* Improve code quality (lint)\n* Add missing function send_event_to_peer",
+      "changelog": "## v2.0.2 - 2021-04-13\n\n* Fix build\n* Improve code quality",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -160,7 +160,7 @@
       "label": "Cleepbus",
       "longdescription": "Application that enables communication between devices",
       "price": 0,
-      "quality": 8.47,
+      "quality": 8.52,
       "tags": [
         "bus",
         "communication"
@@ -171,10 +171,10 @@
         "info": "https://github.com/tangb/cleepmod-cleepbus/",
         "site": null
       },
-      "version": "2.0.1",
-      "sha256": "3d6fff24009f3b5da3983dd7c347423650be93be076ab5c27f68ba5203af8ca8",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepmod_cleepbus_v2.0.1.zip"
+      "version": "2.0.2",
+      "sha256": "dd453f1164008204beee7165f4615a80da9c11768a382711656d861b751b62d8",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepmod_cleepbus_v2.0.2.zip"
     }
   },
-  "update": 1618309595
+  "update": 1618316324
 }
