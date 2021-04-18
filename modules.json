@@ -204,7 +204,34 @@
       "version": "2.0.2",
       "sha256": "4fd190f98a4b6c57b240865b5a7a4feb0e3f64993a7e93b8c1672b4c124ab90f",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepmod_parameters_v2.0.2.zip"
+    },
+    "audio": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## v2.0.2 - 2021-04-18\n\n* Update after core changes\n* Lint code\n* Fix tests",
+      "confidence": 9.7,
+      "country": null,
+      "deps": [],
+      "description": "Configure audio on your device",
+      "icon": "speaker",
+      "label": "Audio",
+      "longdescription": "Application that helps you to configure audio on your device",
+      "price": 0,
+      "quality": 9.69,
+      "tags": [
+        "audio",
+        "sound"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-audio/issues",
+        "help": "https://github.com/tangb/cleepmod-audio/wiki",
+        "info": "https://github.com/tangb/cleepmod-audio",
+        "site": null
+      },
+      "version": "2.0.2",
+      "sha256": "5cedba606ca11c1df6e7f88c7c89b3c43de213542ccb4f2f346b1d7ebfb1627c",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepmod_audio_v2.0.2.zip"
     }
   },
-  "update": 1618767700
+  "update": 1618778667
 }
