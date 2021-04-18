@@ -174,7 +174,37 @@
       "version": "2.0.2",
       "sha256": "dd453f1164008204beee7165f4615a80da9c11768a382711656d861b751b62d8",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepmod_cleepbus_v2.0.2.zip"
+    },
+    "parameters": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## v2.0.2 - 2021-04-17\n\n* Fix issue with timezone",
+      "confidence": 9.7,
+      "country": null,
+      "deps": [],
+      "description": "Configure generic parameters of your device",
+      "icon": "tune-vertical",
+      "label": "Parameters",
+      "longdescription": "Application that helps you to configure generic parameters of your device",
+      "price": 0,
+      "quality": 9.59,
+      "tags": [
+        "configuration",
+        "date",
+        "time",
+        "locale",
+        "lang"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-parameters/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-parameters",
+        "site": null
+      },
+      "version": "2.0.2",
+      "sha256": "4fd190f98a4b6c57b240865b5a7a4feb0e3f64993a7e93b8c1672b4c124ab90f",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepmod_parameters_v2.0.2.zip"
     }
   },
-  "update": 1618316324
+  "update": 1618767700
 }
