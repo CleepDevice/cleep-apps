@@ -64,7 +64,7 @@
     "network": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.1 - 2021-04-10\n\n* Improve memory usage in network scan\n* Improve code quality (lint)",
+      "changelog": "## v2.0.2 - 2021-05-04\n\n* Frontend: fix layout",
       "confidence": 9.2,
       "country": null,
       "deps": [],
@@ -85,9 +85,9 @@
         "info": "https://github.com/tangb/cleepmod-network/wiki",
         "site": null
       },
-      "version": "2.0.1",
-      "sha256": "05f9b0d83ab8dc1d330a25672665edc33a52a3bde4c90e427eb161f0ba0bf374",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepmod_network_v2.0.1.zip"
+      "version": "2.0.2",
+      "sha256": "f787555ed8c34283810c614f8be9b74d23f8e086736b05dcca39e4cf7bfa6509",
+      "download": null
     },
     "update": {
       "author": "Cleep",
@@ -233,5 +233,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepmod_audio_v2.0.2.zip"
     }
   },
-  "update": 1618778667
+  "update": 1620234752
 }
