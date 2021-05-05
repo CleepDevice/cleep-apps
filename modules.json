@@ -35,7 +35,7 @@
     "fourletterdisplay": {
       "author": "Cleep",
       "category": "DRIVER",
-      "changelog": "## v1.0.1 - 2021-04-09\n\n* Fix: brightness is stored during sunset/sunrise event",
+      "changelog": "## v1.0.2 - 2021-05-05\n\n* Frontend: fix layout",
       "confidence": 9.3,
       "country": null,
       "deps": [],
@@ -57,9 +57,9 @@
         "info": "https://github.com/tangb/cleepmod-fourletterhat",
         "site": "https://shop.pimoroni.com/products/four-letter-phat"
       },
-      "version": "1.0.1",
-      "sha256": "a11b3f63ee89d2bc66bcc4b14598a37de91a14403b63256270e636874f428595",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepmod_fourletterdisplay_v1.0.1.zip"
+      "version": "1.0.2",
+      "sha256": "8a2836bbf1f57ffab37cf511e3845d7d7c29dbad1ac9d17e534a100216476521",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepmod_fourletterdisplay_v1.0.2.zip"
     },
     "network": {
       "author": "Cleep",
@@ -178,8 +178,8 @@
     "parameters": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.2 - 2021-04-17\n\n* Fix issue with timezone",
-      "confidence": 9.7,
+      "changelog": "## v2.0.3 - 2021-04-28\n\n* Backend: fix issue updating localisation (times not timezoned)\n* Frontend: fix layout",
+      "confidence": 9.6,
       "country": null,
       "deps": [],
       "description": "Configure generic parameters of your device",
@@ -201,9 +201,9 @@
         "info": "https://github.com/tangb/cleepmod-parameters",
         "site": null
       },
-      "version": "2.0.2",
-      "sha256": "4fd190f98a4b6c57b240865b5a7a4feb0e3f64993a7e93b8c1672b4c124ab90f",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepmod_parameters_v2.0.2.zip"
+      "version": "2.0.3",
+      "sha256": "d894ac42a398ee909700f76d36470a2feb6fbc3686b5b4e65cbea5c762c83791",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepmod_parameters_v2.0.3.zip"
     },
     "audio": {
       "author": "Cleep",
@@ -233,5 +233,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepmod_audio_v2.0.2.zip"
     }
   },
-  "update": 1620234752
+  "update": 1620237310
 }
