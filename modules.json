@@ -87,7 +87,7 @@
       },
       "version": "2.0.2",
       "sha256": "f787555ed8c34283810c614f8be9b74d23f8e086736b05dcca39e4cf7bfa6509",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepmod_network_v2.0.2.zip"
+      "download": null
     },
     "update": {
       "author": "Cleep",
@@ -208,7 +208,7 @@
     "audio": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.2 - 2021-04-18\n\n* Update after core changes\n* Lint code\n* Fix tests",
+      "changelog": "## v2.0.3 - 2021-05-04\n\n* Backend: do not reboot after driver install/uninstall\n* Frontend: fix layout",
       "confidence": 9.7,
       "country": null,
       "deps": [],
@@ -228,10 +228,10 @@
         "info": "https://github.com/tangb/cleepmod-audio",
         "site": null
       },
-      "version": "2.0.2",
-      "sha256": "5cedba606ca11c1df6e7f88c7c89b3c43de213542ccb4f2f346b1d7ebfb1627c",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepmod_audio_v2.0.2.zip"
+      "version": "2.0.3",
+      "sha256": "4f9d9ddf1dd2cf07cd36a9c420523f8114adb33023679008b8b44874b895315c",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepmod_audio_v2.0.3.zip"
     }
   },
-  "update": 1620237310
+  "update": 1620287305
 }
