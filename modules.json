@@ -87,13 +87,13 @@
       },
       "version": "2.0.2",
       "sha256": "f787555ed8c34283810c614f8be9b74d23f8e086736b05dcca39e4cf7bfa6509",
-      "download": null
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepmod_network_v2.0.2.zip"
     },
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.0.1 - 2021-04-11\n\n* Fix tests\n* Remove logging forced to TRACE",
-      "confidence": 9.8,
+      "changelog": "## v1.0.2 - 2021-05-04\n\n* Frontend: fix typo\n* Frontend: fix small layout issue\n* Backend: fix final process status that was not properly sent\n* Improve code quality and confidence",
+      "confidence": 9.5,
       "country": null,
       "deps": [],
       "description": "Applications and Cleep updater",
@@ -101,7 +101,7 @@
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 9.52,
+      "quality": 9.68,
       "tags": [
         "update",
         "application",
@@ -113,9 +113,9 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.0.1",
-      "sha256": "9a61ad4f2af6d73cfbaf199c84562d2669889795f9a697da018a9265af921a13",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepmod_update_v1.0.1.zip"
+      "version": "1.0.2",
+      "sha256": "c6d11ef35ab8195b790e46b6f4776b4d53f819770dffd36f85dce364219e4cba",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.0.2.zip"
     },
     "system": {
       "author": "Cleep",
@@ -233,5 +233,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepmod_audio_v2.0.3.zip"
     }
   },
-  "update": 1620287305
+  "update": 1620410752
 }
