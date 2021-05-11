@@ -92,7 +92,7 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.0.2 - 2021-05-04\n\n* Frontend: fix typo\n* Frontend: fix small layout issue\n* Backend: fix final process status that was not properly sent\n* Improve code quality and confidence",
+      "changelog": "## v1.0.3 - 2021-05-11\n\n* Backend: send need restart event after install/unsinstall/update\n* Backend: add improvement to send end of process when really terminated\n* Frontend: improve UI layout\n* Frontend: fix cleep update displayed info after refresh",
       "confidence": 9.5,
       "country": null,
       "deps": [],
@@ -113,9 +113,9 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.0.2",
-      "sha256": "c6d11ef35ab8195b790e46b6f4776b4d53f819770dffd36f85dce364219e4cba",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.0.2.zip"
+      "version": "1.0.3",
+      "sha256": "9c4eafd14be07afb59155493756c60712928945074b09f27baa608539cd87e63",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.0.3.zip"
     },
     "system": {
       "author": "Cleep",
@@ -233,5 +233,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepmod_audio_v2.0.3.zip"
     }
   },
-  "update": 1620762468
+  "update": 1620768695
 }
