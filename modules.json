@@ -120,7 +120,7 @@
     "system": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.1 - 2021-04-12\n\n* Simplify function parameters checking\n* Fix tests\n* Improve code quality (lint)",
+      "changelog": "## v2.0.3 - 2021-05-11\n\n* Backend: fix needrestart event issue",
       "confidence": 7.3,
       "country": null,
       "deps": [],
@@ -129,7 +129,7 @@
       "label": "System",
       "longdescription": "Application that helps you to configure your system",
       "price": 0,
-      "quality": 9.47,
+      "quality": 9.44,
       "tags": [
         "troubleshoot",
         "monitoring",
@@ -144,9 +144,9 @@
         "info": "https://github.com/tangb/cleepmod-system",
         "site": null
       },
-      "version": "2.0.1",
-      "sha256": "1cf215ebbf49fa0d68d1d8a05a4773153e230f74593f49cc82f883530fd6f6b6",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepmod_system_v2.0.1.zip"
+      "version": "2.0.3",
+      "sha256": "ec308ebdc03d3b3d6a163d1c1a3b9fb0fe733734d8c755b07b9b825535e7017a",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.0.3.zip"
     },
     "cleepbus": {
       "author": "Cleep",
@@ -233,5 +233,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepmod_audio_v2.0.3.zip"
     }
   },
-  "update": 1620410752
+  "update": 1620762468
 }
