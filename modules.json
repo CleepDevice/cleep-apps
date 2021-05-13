@@ -3,13 +3,13 @@
     "teleinfo": {
       "author": "Cleep",
       "category": "SERVICE",
-      "changelog": "## v1.1.0 - 2021-04-08\n\n* Migrate to python3\n* Fix after core changes\n* Add unit tests\n* Fix small issues",
-      "confidence": 8.7,
+      "changelog": "## v1.1.1 - 2021-05-04\n\n* Frontend: layout improvement\n* Backend: fix app label",
+      "confidence": 9.8,
       "country": "fr",
       "deps": [],
       "description": "Gets house power consumption infos from Enedis electric power meter",
       "icon": "transmission-tower",
-      "label": "Cteleinfo",
+      "label": "Teleinfo",
       "longdescription": "This application reads data from Enedis Linky (or older compatible version) house                              power meter and make<br>possible to monitor your house power consumption usage and                              build charts on some useful indicators.",
       "price": null,
       "quality": 9.85,
@@ -28,9 +28,9 @@
         "info": "https://github.com/tangb/cleepmod-teleinfo",
         "site": "https://www.enedis.fr/"
       },
-      "version": "1.1.0",
-      "sha256": "888071e8f146dddb4212b50b630b04578cd8aeae95139f1075738a35f244639f",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepmod_teleinfo_v1.1.0.zip"
+      "version": "1.1.1",
+      "sha256": "98262ae0b16116d3430dcdd6f296ebbe4d2af94adec440898fc436a210e19d74",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.1.zip"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -262,5 +262,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.0.zip"
     }
   },
-  "update": 1620899566
+  "update": 1620902151
 }
