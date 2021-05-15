@@ -235,7 +235,7 @@
     "charts": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.1.0 - 2021-05-13\n\n* Backend: migrate to python3\n* Backend: update after core changes\n* Backend: average automatically to reduce amount of returned data. Can be disabled\n* Tests: Improve unit tests",
+      "changelog": "## v1.1.1 - 2021-05-15\n\n* Frontend: fix issue in angular files",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -257,10 +257,10 @@
         "info": "https://github.com/tangb/cleepmod-charts",
         "site": null
       },
-      "version": "1.1.0",
-      "sha256": "2a5faaa848c032aeab0ded2b7359ef6dbc03fe133c58b2e05bddd3433ee774e2",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.0.zip"
+      "version": "1.1.1",
+      "sha256": "9cd204708d56851d64b241ab20b22da30334d04d46dcf31259244142ddb5c8a9",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.1.zip"
     }
   },
-  "update": 1620902151
+  "update": 1621107101
 }
