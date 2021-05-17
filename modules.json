@@ -260,7 +260,35 @@
       "version": "1.1.1",
       "sha256": "9cd204708d56851d64b241ab20b22da30334d04d46dcf31259244142ddb5c8a9",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.1.zip"
+    },
+    "gpios": {
+      "author": "Cleep",
+      "category": "DRIVER",
+      "changelog": "## v1.1.1 - 2021-05-16\n\n* Backend: migrate to python3\n* Backend: update after core changes\n* Backend: improve unit tests + fix small issues\n* Frontend: code update",
+      "confidence": 9.8,
+      "country": null,
+      "deps": [],
+      "description": "Configure your raspberry pins",
+      "icon": "drag-horizontal",
+      "label": "Gpios",
+      "longdescription": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish quickly and easily.",
+      "price": null,
+      "quality": 9.64,
+      "tags": [
+        "gpios",
+        "inputs",
+        "outputs"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-gpios/issues",
+        "help": "https://github.com/tangb/cleepmod-gpios/wiki",
+        "info": "https://github.com/tangb/cleepmod-gpios",
+        "site": null
+      },
+      "version": "1.1.1",
+      "sha256": "270bee8472c5ce56a0cf2298e7a2bd8609929114fd45c9f83f41a67354ef4bba",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
     }
   },
-  "update": 1621107101
+  "update": 1621280990
 }
