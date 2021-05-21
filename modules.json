@@ -92,8 +92,8 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.0.3 - 2021-05-11\n\n* Backend: send need restart event after install/unsinstall/update\n* Backend: add improvement to send end of process when really terminated\n* Frontend: improve UI layout\n* Frontend: fix cleep update displayed info after refresh",
-      "confidence": 9.5,
+      "changelog": "## v1.1.0 - 2021-05-19 UNRELEASED\n\n* Do not send need restart event if no actions performed\n* Fix Dependencies installation of locally installed apps (for dev)\n* Introduce compat flag to handle core releases\n* Properly install/uninstall library modules",
+      "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Applications and Cleep updater",
@@ -101,7 +101,7 @@
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 9.68,
+      "quality": 9.57,
       "tags": [
         "update",
         "application",
@@ -113,9 +113,10 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.0.3",
-      "sha256": "9c4eafd14be07afb59155493756c60712928945074b09f27baa608539cd87e63",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.0.3.zip"
+      "version": "1.1.0",
+      "sha256": "3b3d83900400bd29165805bbb1958baecb0820c80abfabf95aa7dfbc6c2ac223",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.1.0.zip",
+      "compat": "cleep<=0.0.26"
     },
     "system": {
       "author": "Cleep",
@@ -290,5 +291,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
     }
   },
-  "update": 1621280990
+  "update": 1621614455
 }
