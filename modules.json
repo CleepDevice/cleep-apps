@@ -92,7 +92,7 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.1.0 - 2021-05-19 UNRELEASED\n\n* Do not send need restart event if no actions performed\n* Fix Dependencies installation of locally installed apps (for dev)\n* Introduce compat flag to handle core releases\n* Properly install/uninstall library modules",
+      "changelog": "## v1.1.0 - 2021-05-19\n\n* Do not send need restart event if no actions performed\n* Fix Dependencies installation of locally installed apps (for dev)\n* Introduce compat flag to handle core releases\n* Properly install/uninstall library modules",
       "confidence": 10,
       "country": null,
       "deps": [],
