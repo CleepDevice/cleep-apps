@@ -92,7 +92,7 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.1.0 - 2021-05-19\n\n* Do not send need restart event if no actions performed\n* Fix Dependencies installation of locally installed apps (for dev)\n* Introduce compat flag to handle core releases\n* Properly install/uninstall library modules",
+      "changelog": "## v1.1.1 - 2021-05-24\n\n* Fix fatal issue during module update",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -113,9 +113,9 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.1.0",
-      "sha256": "3b3d83900400bd29165805bbb1958baecb0820c80abfabf95aa7dfbc6c2ac223",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.1.0.zip",
+      "version": "1.1.1",
+      "sha256": "2ca00e7ac07323cceb811e5d4d90ffe326e71638ca0a75136c9678d07b5f457e",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.1.1.zip",
       "compat": "cleep<=0.0.26"
     },
     "system": {
@@ -291,5 +291,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
     }
   },
-  "update": 1621614455
+  "update": 1621847079
 }
