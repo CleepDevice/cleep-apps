@@ -152,16 +152,16 @@
     "cleepbus": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.2 - 2021-04-13\n\n* Fix build\n* Improve code quality",
-      "confidence": 10,
+      "changelog": "## v2.1.0 - 2021-06-03\n\n* Fix issue: peer ident not correctly saved\n* Do not execute process on unknown peer\n* Improve endpoint search reliability\n* Fix issue when receiving whisper message\n* Update pyzmq to 22.1.0 in postinst.sh to match with cleep 0.0.27",
+      "confidence": 9.9,
       "country": null,
       "deps": [],
       "description": "Enables communications between all your Cleep devices through your home network",
       "icon": "bus",
       "label": "Cleepbus",
       "longdescription": "Application that enables communication between devices",
-      "price": 0,
-      "quality": 8.52,
+      "price": null,
+      "quality": 9.85,
       "tags": [
         "bus",
         "communication"
@@ -172,9 +172,10 @@
         "info": "https://github.com/tangb/cleepmod-cleepbus/",
         "site": null
       },
-      "version": "2.0.2",
-      "sha256": "dd453f1164008204beee7165f4615a80da9c11768a382711656d861b751b62d8",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepmod_cleepbus_v2.0.2.zip"
+      "version": "2.1.0",
+      "sha256": "18f7b1e8bbb08093293ca7dc9118222b20f1d0b042d6883801b444604edc0e5f",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.1.0.zip",
+      "compat": "cleep<=0.0.27"
     },
     "parameters": {
       "author": "Cleep",
@@ -292,5 +293,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
     }
   },
-  "update": 1622724318
+  "update": 1622800627
 }
