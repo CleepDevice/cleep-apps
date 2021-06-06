@@ -65,7 +65,7 @@
     "network": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.2 - 2021-05-04\n\n* Frontend: fix layout",
+      "changelog": "## v2.0.3 - 2021-06-06\n\n* Fix tests after core changes",
       "confidence": 9.2,
       "country": null,
       "deps": [],
@@ -73,8 +73,8 @@
       "icon": "ethernet",
       "label": "Network",
       "longdescription": "Application that helps you to configure device network connection",
-      "price": 0,
-      "quality": 9.57,
+      "price": null,
+      "quality": 9.67,
       "tags": [
         "wireless",
         "wifi",
@@ -86,9 +86,10 @@
         "info": "https://github.com/tangb/cleepmod-network/wiki",
         "site": null
       },
-      "version": "2.0.2",
-      "sha256": "f787555ed8c34283810c614f8be9b74d23f8e086736b05dcca39e4cf7bfa6509",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepmod_network_v2.0.2.zip"
+      "version": "2.0.3",
+      "sha256": "857d2416b7611e055e35dc245a9f0365b6dc8118317cdf2d038b3c81fed4509e",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepapp_network_v2.0.3.zip",
+      "compat": "cleep<=0.0.27"
     },
     "update": {
       "author": "Cleep",
@@ -294,5 +295,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
     }
   },
-  "update": 1622893475
+  "update": 1623014486
 }
