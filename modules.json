@@ -182,16 +182,16 @@
     "parameters": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.3 - 2021-04-28\n\n* Backend: fix issue updating localisation (times not timezoned)\n* Frontend: fix layout",
-      "confidence": 9.6,
+      "changelog": "## v2.0.4 - 2021-06-07\n\n* Backend: update formatters after core changes",
+      "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Configure generic parameters of your device",
       "icon": "tune-vertical",
       "label": "Parameters",
       "longdescription": "Application that helps you to configure generic parameters of your device",
-      "price": 0,
-      "quality": 9.59,
+      "price": null,
+      "quality": 9.9,
       "tags": [
         "configuration",
         "date",
@@ -205,9 +205,10 @@
         "info": "https://github.com/tangb/cleepmod-parameters",
         "site": null
       },
-      "version": "2.0.3",
-      "sha256": "d894ac42a398ee909700f76d36470a2feb6fbc3686b5b4e65cbea5c762c83791",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepmod_parameters_v2.0.3.zip"
+      "version": "2.0.4",
+      "sha256": "6b153db7ce427e492f8d111f438ca1681c91d283b055767c7e948d633583bbf9",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.0.4.zip",
+      "compat": "cleep<=0.0.27"
     },
     "audio": {
       "author": "Cleep",
@@ -295,5 +296,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
     }
   },
-  "update": 1623014486
+  "update": 1623073536
 }
