@@ -123,16 +123,16 @@
     "system": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.3 - 2021-05-11\n\n* Backend: fix needrestart event issue",
-      "confidence": 7.3,
+      "changelog": "## v2.1.0 - 2021-05-18\n\n* Implement power and activity leds tweaking",
+      "confidence": 7.4,
       "country": null,
       "deps": [],
       "description": "Helps controlling and monitoring the device",
       "icon": "heart-pulse",
       "label": "System",
       "longdescription": "Application that helps you to configure your system",
-      "price": 0,
-      "quality": 9.44,
+      "price": null,
+      "quality": 9.78,
       "tags": [
         "troubleshoot",
         "monitoring",
@@ -147,9 +147,10 @@
         "info": "https://github.com/tangb/cleepmod-system",
         "site": null
       },
-      "version": "2.0.3",
-      "sha256": "ec308ebdc03d3b3d6a163d1c1a3b9fb0fe733734d8c755b07b9b825535e7017a",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.0.3.zip"
+      "version": "2.1.0",
+      "sha256": "1c8c27046e54c420cb152f7393eb2bcb2b658bbf2b4f264d1ae942371f12cd03",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.0.zip",
+      "compat": "cleep<=0.0.27"
     },
     "cleepbus": {
       "author": "Cleep",
@@ -296,5 +297,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
     }
   },
-  "update": 1623073536
+  "update": 1623095964
 }
