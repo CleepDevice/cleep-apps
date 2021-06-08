@@ -59,8 +59,8 @@
         "site": "https://shop.pimoroni.com/products/four-letter-phat"
       },
       "version": "1.0.3",
-      "sha256": "2e08ebfba8ffb896f9f50d1a9fe11cbc551210b171e659972c26a8f9c6be8a68",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.0.3.zip",
+      "sha256": "4f3a94f52fa9e8e3f2c14c130f0e226d434e25c37e3f733a156b68d7d4f228f1",
+      "download": null,
       "compat": "cleep<=0.0.27"
     },
     "network": {
@@ -273,8 +273,8 @@
     "gpios": {
       "author": "Cleep",
       "category": "DRIVER",
-      "changelog": "## v1.1.1 - 2021-05-16\n\n* Backend: migrate to python3\n* Backend: update after core changes\n* Backend: improve unit tests + fix small issues\n* Frontend: code update",
-      "confidence": 9.8,
+      "changelog": "## v1.1.2 - 2021-06-08\n\n* Fix issue at startup with gpio configured\n* Improve command parameters check",
+      "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Configure your raspberry pins",
@@ -282,7 +282,7 @@
       "label": "Gpios",
       "longdescription": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish quickly and easily.",
       "price": null,
-      "quality": 9.64,
+      "quality": 9.73,
       "tags": [
         "gpios",
         "inputs",
@@ -294,10 +294,11 @@
         "info": "https://github.com/tangb/cleepmod-gpios",
         "site": null
       },
-      "version": "1.1.1",
-      "sha256": "270bee8472c5ce56a0cf2298e7a2bd8609929114fd45c9f83f41a67354ef4bba",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
+      "version": "1.1.2",
+      "sha256": "990d4f9fbd22904b37f30f30f9e4a664df53735fb7cde83dc0cb7065685a0d50",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.2.zip",
+      "compat": "cleep<=0.0.27"
     }
   },
-  "update": 1623158280
+  "update": 1623161539
 }
