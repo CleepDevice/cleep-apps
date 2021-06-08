@@ -12,7 +12,7 @@
       "label": "Teleinfo",
       "longdescription": "This application reads data from Enedis Linky (or older compatible version) house                              power meter and make<br>possible to monitor your house power consumption usage and                              build charts on some useful indicators.",
       "price": null,
-      "quality": 9.85,
+      "quality": 9.9,
       "tags": [
         "electricity",
         "power",
@@ -29,8 +29,9 @@
         "site": "https://www.enedis.fr/"
       },
       "version": "1.1.1",
-      "sha256": "98262ae0b16116d3430dcdd6f296ebbe4d2af94adec440898fc436a210e19d74",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.1.zip"
+      "sha256": "71e4f54cbf336dbfdbeda43cd6a981d3dac6ff5a09da8288703fe55f079ac508",
+      "download": null,
+      "compat": "cleep<=0.0.27"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -94,7 +95,7 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.1.1 - 2021-05-24\n\n* Fix fatal issue during module update",
+      "changelog": "## v1.1.2 - 2021-06-08\n\n* Remove useless tools file (transient file to wait for cleep v0.0.27)",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -103,7 +104,7 @@
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 9.57,
+      "quality": 9.87,
       "tags": [
         "update",
         "application",
@@ -115,10 +116,10 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.1.1",
-      "sha256": "2ca00e7ac07323cceb811e5d4d90ffe326e71638ca0a75136c9678d07b5f457e",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.1.1.zip",
-      "compat": "cleep<=0.0.26"
+      "version": "1.1.2",
+      "sha256": "0df6975e962b36e3d792d7a4d609fcea0b54a5a06d4e0689dbaabf9786e6e01b",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.1.2.zip",
+      "compat": "cleep<=0.0.27"
     },
     "system": {
       "author": "Cleep",
@@ -251,7 +252,7 @@
       "label": "Charts",
       "longdescription": "Charts application automatically generates charts according to your connected sensors values.<br>It allows you to follow in time the evolution of the measurements of your sensors",
       "price": null,
-      "quality": 9.77,
+      "quality": 9.81,
       "tags": [
         "sensors",
         "graphs",
@@ -265,8 +266,9 @@
         "site": null
       },
       "version": "1.1.1",
-      "sha256": "9cd204708d56851d64b241ab20b22da30334d04d46dcf31259244142ddb5c8a9",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.1.zip"
+      "sha256": "d3458dce954e27725d978fc3b4deca2397b82b2aa4fc9b41f24befca2f924154",
+      "download": null,
+      "compat": "cleep<=0.0.27"
     },
     "gpios": {
       "author": "Cleep",
@@ -297,5 +299,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.1.zip"
     }
   },
-  "update": 1623095964
+  "update": 1623158280
 }
