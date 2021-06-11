@@ -177,8 +177,8 @@
         "site": null
       },
       "version": "2.1.0",
-      "sha256": "18f7b1e8bbb08093293ca7dc9118222b20f1d0b042d6883801b444604edc0e5f",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.1.0.zip",
+      "sha256": "b568e23a5bd8874987aee58e40bbc9561ecdd9093540ab045d2d8ddcd799e765",
+      "download": null,
       "compat": "cleep<=0.0.27"
     },
     "parameters": {
@@ -328,5 +328,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.0.zip"
     }
   },
-  "update": 1623412919
+  "update": 1623425508
 }
