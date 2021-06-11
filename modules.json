@@ -298,7 +298,35 @@
       "sha256": "990d4f9fbd22904b37f30f30f9e4a664df53735fb7cde83dc0cb7065685a0d50",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.2.zip",
       "compat": "cleep<=0.0.27"
+    },
+    "openweathermap": {
+      "author": "Cleep",
+      "category": "SERVICE",
+      "changelog": "## v1.2.0 - 2021-06-10\n\n* Migrate to python3\n* Fix small issues\n* Improve code quality\n* Improve code confidence",
+      "compat": "cleep<=0.0.27",
+      "confidence": 10,
+      "country": null,
+      "deps": [],
+      "description": "Gets weather conditions using OpenWeatherMap service",
+      "icon": "cloud",
+      "label": "Openweathermap",
+      "longdescription": "This application gets data from OpenWeatherMap online service and displays it directly on your device dashboard.<br>OpenWeatherMap allows to get for free current weather condition and 5 days forecast.<br> This application also broadcasts weather event on all your devices.",
+      "price": null,
+      "quality": 9.74,
+      "tags": [
+        "weather",
+        "forecast"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepadd-openweathermap/issues",
+        "help": "https://github.com/tangb/cleepadd-openweathermap/wiki",
+        "info": "https://github.com/tangb/cleepadd-openweathermap",
+        "site": "https://openweathermap.org/"
+      },
+      "version": "1.2.0",
+      "sha256": "17217d2ece8d430eb71395a033840612d6ed92caead2517fb91010c10d591ec9",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.0.zip"
     }
   },
-  "update": 1623161539
+  "update": 1623412919
 }
