@@ -302,7 +302,7 @@
     "openweathermap": {
       "author": "Cleep",
       "category": "SERVICE",
-      "changelog": "## v1.2.0 - 2021-06-10\n\n* Migrate to python3\n* Fix small issues\n* Improve code quality\n* Improve code confidence",
+      "changelog": "## [1.2.2] - 2021-07-09\n\n### Fixed\n* Fix invalid apikey issue\n* Fix invalid app urls",
       "compat": "cleep<=0.0.27",
       "confidence": 10,
       "country": null,
@@ -318,15 +318,15 @@
         "forecast"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepadd-openweathermap/issues",
-        "help": "https://github.com/tangb/cleepadd-openweathermap/wiki",
-        "info": "https://github.com/tangb/cleepadd-openweathermap",
+        "bugs": "https://github.com/tangb/cleepapp-openweathermap/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepapp-openweathermap",
         "site": "https://openweathermap.org/"
       },
-      "version": "1.2.0",
-      "sha256": "17217d2ece8d430eb71395a033840612d6ed92caead2517fb91010c10d591ec9",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.0.zip"
+      "version": "1.2.2",
+      "sha256": "396e5457cbb28cf3961159ff97c4dbe2b22bca7e229c903e764efd6d3cede386",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1625832168
+  "update": 1625834809
 }
