@@ -124,8 +124,8 @@
     "system": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.1.0 - 2021-05-18\n\n* Implement power and activity leds tweaking",
-      "confidence": 7.4,
+      "changelog": "## [2.1.1] - 2021-07-27\n\n### Fixed\n* Fix LED tweak on raspi zero and oldest raspi (first version)",
+      "confidence": 7.5,
       "country": null,
       "deps": [],
       "description": "Helps controlling and monitoring the device",
@@ -148,9 +148,9 @@
         "info": "https://github.com/tangb/cleepmod-system",
         "site": null
       },
-      "version": "2.1.0",
-      "sha256": "1c8c27046e54c420cb152f7393eb2bcb2b658bbf2b4f264d1ae942371f12cd03",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.0.zip",
+      "version": "2.1.1",
+      "sha256": "6bfd0c50ef734e2dd2c896c83d37a77ebb74014bb478506524f2afe67031396d",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.1.zip",
       "compat": "cleep<=0.0.27"
     },
     "cleepbus": {
@@ -328,5 +328,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1625834809
+  "update": 1627409241
 }
