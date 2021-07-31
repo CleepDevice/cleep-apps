@@ -3,7 +3,7 @@
     "teleinfo": {
       "author": "Cleep",
       "category": "SERVICE",
-      "changelog": "## v1.1.1 - 2021-05-04\n\n* Frontend: layout improvement\n* Backend: fix app label",
+      "changelog": "## [1.1.2] - 2021-07-31\n\n### Fixed\n* Fix widget that wasn't displayed",
       "confidence": 9.8,
       "country": "fr",
       "deps": [],
@@ -28,9 +28,9 @@
         "info": "https://github.com/tangb/cleepmod-teleinfo",
         "site": "https://www.enedis.fr/"
       },
-      "version": "1.1.1",
-      "sha256": "71e4f54cbf336dbfdbeda43cd6a981d3dac6ff5a09da8288703fe55f079ac508",
-      "download": null,
+      "version": "1.1.2",
+      "sha256": "86f6a69930be55c896f8bfda1fe5b3dd73bf731e19ac05bfa86efa74cb6da560",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.2.zip",
       "compat": "cleep<=0.0.27"
     },
     "fourletterdisplay": {
@@ -328,5 +328,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1627725891
+  "update": 1627727108
 }
