@@ -243,7 +243,7 @@
     "charts": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.1.1 - 2021-05-15\n\n* Frontend: fix issue in angular files",
+      "changelog": "## [1.1.2] - 2021-07-31\n\n### Fixed\n* Fix random issue due to nv-d3 library loading",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -265,15 +265,15 @@
         "info": "https://github.com/tangb/cleepmod-charts",
         "site": null
       },
-      "version": "1.1.1",
-      "sha256": "d3458dce954e27725d978fc3b4deca2397b82b2aa4fc9b41f24befca2f924154",
-      "download": null,
+      "version": "1.1.2",
+      "sha256": "ab1d90f9707f9758a241836d2378d24b52f27de4649e8028ab6b0f248d071794",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.2.zip",
       "compat": "cleep<=0.0.27"
     },
     "gpios": {
       "author": "Cleep",
       "category": "DRIVER",
-      "changelog": "## v1.1.2 - 2021-06-08\n\n* Fix issue at startup with gpio configured\n* Improve command parameters check",
+      "changelog": "## [1.1.3] - 2021-07-31\n\n### Changed\n* Frontend service doesn't have to catch update events",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -282,7 +282,7 @@
       "label": "Gpios",
       "longdescription": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish quickly and easily.",
       "price": null,
-      "quality": 9.73,
+      "quality": 9.76,
       "tags": [
         "gpios",
         "inputs",
@@ -294,9 +294,9 @@
         "info": "https://github.com/tangb/cleepmod-gpios",
         "site": null
       },
-      "version": "1.1.2",
-      "sha256": "990d4f9fbd22904b37f30f30f9e4a664df53735fb7cde83dc0cb7065685a0d50",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.2.zip",
+      "version": "1.1.3",
+      "sha256": "12e2c89de529412bc136cff6883af119a5fd83dd212c5d22b5c1a3ef296070d8",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.3.zip",
       "compat": "cleep<=0.0.27"
     },
     "openweathermap": {
@@ -328,5 +328,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1627409241
+  "update": 1627725891
 }
