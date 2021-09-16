@@ -29,9 +29,9 @@
         "site": "https://www.enedis.fr/"
       },
       "version": "1.1.2",
-      "sha256": "86f6a69930be55c896f8bfda1fe5b3dd73bf731e19ac05bfa86efa74cb6da560",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.2.zip",
-      "compat": "cleep<=0.0.27"
+      "sha256": "44fcec0c62c82cf5f1e9613f1f78f66d95dd6e025003fe0547031975d691878e",
+      "download": null,
+      "compat": "cleep<=0.0.28"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -45,7 +45,7 @@
       "label": "Fourletterdisplay",
       "longdescription": "This application installs all needed to use Four-letter pHAT from Piromoni.<br>It allows to display informations from your device (like weather temperature, CPU usage and more) through four letters.<br>Long text (more than 4 letters) will scroll automatically and displayed dots can be configured individually.<br>Brightness is also configurable with a night mode with a night mode",
       "price": null,
-      "quality": 9.5,
+      "quality": 9.34,
       "tags": [
         "display",
         "pimoroni",
@@ -59,8 +59,8 @@
         "site": "https://shop.pimoroni.com/products/four-letter-phat"
       },
       "version": "1.0.3",
-      "sha256": "2e08ebfba8ffb896f9f50d1a9fe11cbc551210b171e659972c26a8f9c6be8a68",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.0.3.zip",
+      "sha256": "5f00804dfcdd279dbdbe6448dbefdd09b2d316e49bacdfd8dfefc82917a82cdf",
+      "download": null,
       "compat": "cleep<=0.0.28"
     },
     "network": {
@@ -328,5 +328,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1627727108
+  "update": 1631783386
 }
