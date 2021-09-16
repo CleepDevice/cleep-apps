@@ -29,7 +29,7 @@
         "site": "https://www.enedis.fr/"
       },
       "version": "1.1.2",
-      "sha256": "44fcec0c62c82cf5f1e9613f1f78f66d95dd6e025003fe0547031975d691878e",
+      "sha256": "3bfeb694c990c6ee6c7da0e269f056feb3c991441ef15da0973bdbdd2a2e4736",
       "download": null,
       "compat": "cleep<=0.0.28"
     },
@@ -328,5 +328,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1631783386
+  "update": 1631797272
 }
