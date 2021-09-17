@@ -59,8 +59,8 @@
         "site": "https://shop.pimoroni.com/products/four-letter-phat"
       },
       "version": "1.0.3",
-      "sha256": "5f00804dfcdd279dbdbe6448dbefdd09b2d316e49bacdfd8dfefc82917a82cdf",
-      "download": null,
+      "sha256": "b62d5406a79de02b9cc4b35e31a5de141d3d2d7709d726f200b446691f16f005",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.0.3.zip",
       "compat": "cleep<=0.0.28"
     },
     "network": {
@@ -328,5 +328,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1631857300
+  "update": 1631860001
 }
