@@ -29,9 +29,9 @@
         "site": "https://www.enedis.fr/"
       },
       "version": "1.1.2",
-      "sha256": "20966e57eb4472e6a623097d8a9dcac37380732b138aaa1d4a10ff2dd5413881",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.2.zip",
-      "compat": "cleep<=0.0.28"
+      "sha256": "b6b2630c187c3cc900e60e546c99edd145f29ee5451d1397ad5be502437ee8aa",
+      "download": null,
+      "compat": "cleep<=0.0.27"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -324,9 +324,9 @@
         "site": "https://openweathermap.org/"
       },
       "version": "1.2.2",
-      "sha256": "396e5457cbb28cf3961159ff97c4dbe2b22bca7e229c903e764efd6d3cede386",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
+      "sha256": "87e12f92034febd3ded8d8611f3ad0aefc13abb58e22d844b92fafa6b884bc74",
+      "download": null
     }
   },
-  "update": 1631897731
+  "update": 1632002543
 }
