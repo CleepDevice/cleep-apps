@@ -252,7 +252,7 @@
       "label": "Charts",
       "longdescription": "Charts application automatically generates charts according to your connected sensors values.<br>It allows you to follow in time the evolution of the measurements of your sensors",
       "price": null,
-      "quality": 9.81,
+      "quality": 9.77,
       "tags": [
         "sensors",
         "graphs",
@@ -266,9 +266,9 @@
         "site": null
       },
       "version": "1.1.2",
-      "sha256": "ab1d90f9707f9758a241836d2378d24b52f27de4649e8028ab6b0f248d071794",
+      "sha256": "929686e98532460c8de02c87bfcc1bad71b0db78d923bd4282759d6240e523e9",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.2.zip",
-      "compat": "cleep<=0.0.27"
+      "compat": "cleep<=0.0.28"
     },
     "gpios": {
       "author": "Cleep",
@@ -303,7 +303,7 @@
       "author": "Cleep",
       "category": "SERVICE",
       "changelog": "## [1.2.2] - 2021-07-09\n\n### Fixed\n* Fix invalid apikey issue\n* Fix invalid app urls",
-      "compat": "cleep<=0.0.27",
+      "compat": "cleep<=0.0.28",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -324,9 +324,9 @@
         "site": "https://openweathermap.org/"
       },
       "version": "1.2.2",
-      "sha256": "be3dc049713780f234e713ad45109fd13e165a986266d19e43c676c7d089a991",
+      "sha256": "113ed4d7fda4b77b8ad0f7abeb647bfca2dc4b7ecfb5bbbf87b7808590ad1336",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1632131557
+  "update": 1632132509
 }
