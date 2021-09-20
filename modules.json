@@ -29,9 +29,9 @@
         "site": "https://www.enedis.fr/"
       },
       "version": "1.1.2",
-      "sha256": "b6b2630c187c3cc900e60e546c99edd145f29ee5451d1397ad5be502437ee8aa",
-      "download": null,
-      "compat": "cleep<=0.0.27"
+      "sha256": "91a8d1188823d50a4a5693c591f683b310938361e8575855d3fdcda6cfa6a1b2",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.2.zip",
+      "compat": "cleep<=0.0.28"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -59,7 +59,7 @@
         "site": "https://shop.pimoroni.com/products/four-letter-phat"
       },
       "version": "1.0.3",
-      "sha256": "b62d5406a79de02b9cc4b35e31a5de141d3d2d7709d726f200b446691f16f005",
+      "sha256": "984c1786bc577a25cde4fe661b9156495b39a6c5fe434a8c4dc9059d00b27933",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.0.3.zip",
       "compat": "cleep<=0.0.28"
     },
@@ -324,9 +324,9 @@
         "site": "https://openweathermap.org/"
       },
       "version": "1.2.2",
-      "sha256": "87e12f92034febd3ded8d8611f3ad0aefc13abb58e22d844b92fafa6b884bc74",
-      "download": null
+      "sha256": "be3dc049713780f234e713ad45109fd13e165a986266d19e43c676c7d089a991",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1632002543
+  "update": 1632122556
 }
