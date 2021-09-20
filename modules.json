@@ -75,7 +75,7 @@
       "label": "Network",
       "longdescription": "Application that helps you to configure device network connection",
       "price": null,
-      "quality": 9.67,
+      "quality": 9.65,
       "tags": [
         "wireless",
         "wifi",
@@ -88,9 +88,9 @@
         "site": null
       },
       "version": "2.0.3",
-      "sha256": "857d2416b7611e055e35dc245a9f0365b6dc8118317cdf2d038b3c81fed4509e",
+      "sha256": "f674ad08c2f3f826e0a5e27124fe458eda1b06c322f1d65edd04a20ae7a8b2d5",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepapp_network_v2.0.3.zip",
-      "compat": "cleep<=0.0.27"
+      "compat": "cleep<=0.0.28"
     },
     "update": {
       "author": "Cleep",
@@ -104,7 +104,7 @@
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 9.86,
+      "quality": 9.85,
       "tags": [
         "update",
         "application",
@@ -117,9 +117,9 @@
         "site": null
       },
       "version": "1.2.0",
-      "sha256": "1946bbef793fba9f0287e516619338b7f158f383245b1addd8da96d4a5daa8bb",
+      "sha256": "82569bdc2c93eea8f594bb1896df6f22c3fa2bb90e24e97f5cf7c0b37fc3e283",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.0.zip",
-      "compat": "cleep<=0.0.27"
+      "compat": "cleep<=0.0.28"
     },
     "system": {
       "author": "Cleep",
@@ -133,7 +133,7 @@
       "label": "System",
       "longdescription": "Application that helps you to configure your system",
       "price": null,
-      "quality": 9.78,
+      "quality": 9.66,
       "tags": [
         "troubleshoot",
         "monitoring",
@@ -149,9 +149,9 @@
         "site": null
       },
       "version": "2.1.1",
-      "sha256": "6bfd0c50ef734e2dd2c896c83d37a77ebb74014bb478506524f2afe67031396d",
+      "sha256": "e5cf0ef20f3741fe477d75b7c7057f093641a27d17484d60502723e5447be42d",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.1.zip",
-      "compat": "cleep<=0.0.27"
+      "compat": "cleep<=0.0.28"
     },
     "cleepbus": {
       "author": "Cleep",
@@ -177,9 +177,9 @@
         "site": null
       },
       "version": "2.1.1",
-      "sha256": "7d7516f7ab8068af184ae531b3677af8897435496a508d7924f4e9110cddf33b",
+      "sha256": "98b0baf5081a211ee76f59c0e231ea60f5359e38e9997e2e02911878b85000ad",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.1.1.zip",
-      "compat": "cleep<=0.0.27"
+      "compat": "cleep<=0.0.28"
     },
     "parameters": {
       "author": "Cleep",
@@ -193,7 +193,7 @@
       "label": "Parameters",
       "longdescription": "Application that helps you to configure generic parameters of your device",
       "price": null,
-      "quality": 9.9,
+      "quality": 9.83,
       "tags": [
         "configuration",
         "date",
@@ -208,15 +208,15 @@
         "site": null
       },
       "version": "2.0.4",
-      "sha256": "6b153db7ce427e492f8d111f438ca1681c91d283b055767c7e948d633583bbf9",
+      "sha256": "5a38849ebb434afbddb51db162cb4f9e3043617a56e07c0450f7dcf5eff07677",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.0.4.zip",
-      "compat": "cleep<=0.0.27"
+      "compat": "cleep<=0.0.28"
     },
     "audio": {
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## v2.0.4 - 2021-06-02\n\n* Update driver stuff after core changes",
-      "confidence": 9.8,
+      "confidence": 9.5,
       "country": null,
       "deps": [],
       "description": "Configure audio on your device",
@@ -224,7 +224,7 @@
       "label": "Audio",
       "longdescription": "Application that helps you to configure audio on your device",
       "price": null,
-      "quality": 9.56,
+      "quality": 9.47,
       "tags": [
         "audio",
         "sound"
@@ -236,9 +236,9 @@
         "site": null
       },
       "version": "2.0.4",
-      "sha256": "6f2c776aeca4949fa1fb22c70f22ec9a94f8800be78d9d9baaccdda31bbcc128",
+      "sha256": "6f4d68c58284d4d7e552104e8aedecebf2023d570e7f0402e19096d8359fefcb",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepapp_audio_v2.0.4.zip",
-      "compat": "cleep<=0.0.27"
+      "compat": "cleep<=0.0.28"
     },
     "charts": {
       "author": "Cleep",
@@ -328,5 +328,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
     }
   },
-  "update": 1632128488
+  "update": 1632131557
 }
