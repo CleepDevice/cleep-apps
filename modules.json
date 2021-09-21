@@ -326,7 +326,40 @@
       "version": "1.2.2",
       "sha256": "113ed4d7fda4b77b8ad0f7abeb647bfca2dc4b7ecfb5bbbf87b7808590ad1336",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
+    },
+    "sensors": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## v1.1.0 - 2021-05-24\n\n* Migration to python3\n* Update after core changes\n* Update after gpios changes\n* Improve code quality and confidence",
+      "compat": "cleep<=0.0.28",
+      "confidence": 9.9,
+      "country": null,
+      "deps": [
+        "gpios"
+      ],
+      "description": "Implements easily and quickly sensors like temperature, motion, light...",
+      "icon": "chip",
+      "label": "Sensors",
+      "longdescription": "With this module you will be able to follow environment temperature, detect some motion around your device, detect when light level is dim... and trigger some action according to those stimuli.",
+      "price": null,
+      "quality": 9.5,
+      "tags": [
+        "sensors",
+        "temperature",
+        "motion",
+        "onewire",
+        "1wire"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-sensors/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-sensors",
+        "site": null
+      },
+      "version": "1.1.0",
+      "sha256": "80c89cf218a2ee545b6de77a49344c10e861ff6ac8271eef01d70176b84a0023",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/sensors/cleepapp_sensors_v1.1.0.zip"
     }
   },
-  "update": 1632132509
+  "update": 1632210821
 }
