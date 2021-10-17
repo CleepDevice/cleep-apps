@@ -359,7 +359,42 @@
       "version": "1.1.0",
       "sha256": "80c89cf218a2ee545b6de77a49344c10e861ff6ac8271eef01d70176b84a0023",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/sensors/cleepapp_sensors_v1.1.0.zip"
+    },
+    "developer": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## [v3.0.0] - 2021-10-16\n\n### Added\n* Full code coverage\n* Review layout\n\n### Fixed\n* Small issues discovered during unit tests writing\n\n### Removed\n* Functionnalities deported to cleep-cli\n* Logs display that already exists on core system app",
+      "compat": "cleep<=0.0.28",
+      "confidence": 10,
+      "country": null,
+      "deps": [],
+      "description": "Helps you to develop Cleep applications.",
+      "icon": "account-hard-hat",
+      "label": "Developer",
+      "longdescription": "Developer module helps you to develop on Cleep installing         and preconfiguring sync tools. It also provides a full page that helps you to         check and build your own application.<br/>This module will provide the official way to         publish your module on Cleep market.<br/><br/>Lot of resources are available         on developer module wiki, have a look and start enjoying Cleep!",
+      "price": null,
+      "quality": 8.78,
+      "tags": [
+        "developer",
+        "python",
+        "cleepos",
+        "module",
+        "angularjs",
+        "cleep",
+        "cli",
+        "test",
+        "documentation"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-developer/issues",
+        "help": "https://github.com/tangb/cleepmod-developer/wiki",
+        "info": "https://github.com/tangb/cleepmod-developer",
+        "site": null
+      },
+      "version": "3.0.0",
+      "sha256": "f5b4dc50351c39a4648b0d3084801697c39a8a23e19707409f3879a8ab95244a",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/developer/cleepapp_developer_v3.0.0.zip"
     }
   },
-  "update": 1632210821
+  "update": 1634480841
 }
