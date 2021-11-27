@@ -394,7 +394,32 @@
       "version": "3.0.0",
       "sha256": "f5b4dc50351c39a4648b0d3084801697c39a8a23e19707409f3879a8ab95244a",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/developer/cleepapp_developer_v3.0.0.zip"
+    },
+    "audioplayer": {
+      "author": "Cleep",
+      "category": "MEDIA",
+      "changelog": "## [1.0.0] - 2021-11-26\n\n### Added\n\n* First release",
+      "compat": "cleep<=0.0.28",
+      "confidence": 10,
+      "country": null,
+      "deps": [],
+      "description": "Enjoy music playback",
+      "icon": "music-circle",
+      "label": "Audioplayer",
+      "longdescription": "This application provides an common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Propagate significative player events</li></ul>",
+      "price": null,
+      "quality": 9.97,
+      "tags": [],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepapp-audioplayer/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepapp-audioplayer",
+        "site": null
+      },
+      "version": "1.0.0",
+      "sha256": "c18982084de64f831cce2aefceed7d73dff6ff46c9e8f2ac7d7cd92bf01b2aa8",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.0.0.zip"
     }
   },
-  "update": 1634480841
+  "update": 1638019708
 }
