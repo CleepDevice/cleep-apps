@@ -184,7 +184,7 @@
     "parameters": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.4 - 2021-06-07\n\n* Backend: update formatters after core changes",
+      "changelog": "## [2.1.0] - 2021-11-28\n### Added\n* Add commands to get and check non working days",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -193,7 +193,7 @@
       "label": "Parameters",
       "longdescription": "Application that helps you to configure generic parameters of your device",
       "price": null,
-      "quality": 9.83,
+      "quality": 9.36,
       "tags": [
         "configuration",
         "date",
@@ -207,9 +207,9 @@
         "info": "https://github.com/tangb/cleepmod-parameters",
         "site": null
       },
-      "version": "2.0.4",
-      "sha256": "5a38849ebb434afbddb51db162cb4f9e3043617a56e07c0450f7dcf5eff07677",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.0.4.zip",
+      "version": "2.1.0",
+      "sha256": "1a92f9cd73f1d473e613abd00cda171567521dbbe7c2c2058789ba09402e7cb7",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.1.0.zip",
       "compat": "cleep<=0.0.28"
     },
     "audio": {
@@ -421,5 +421,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.0.0.zip"
     }
   },
-  "update": 1638019708
+  "update": 1638130632
 }
