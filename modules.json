@@ -156,7 +156,7 @@
     "cleepbus": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.1.1] - 2021-07-09\n### Changed\n* Peer log message changed from info to debug\n* Add message that was not sent when external bus is not available",
+      "changelog": "## [2.2.0] - 2022-01-25\n### Changed\n- Remove useless python dependencies (mandatory in core)",
       "confidence": 9.9,
       "country": null,
       "deps": [],
@@ -165,7 +165,7 @@
       "label": "Cleepbus",
       "longdescription": "Application that enables communication between devices",
       "price": null,
-      "quality": 9.82,
+      "quality": 8.82,
       "tags": [
         "bus",
         "communication"
@@ -176,10 +176,10 @@
         "info": "https://github.com/tangb/cleepmod-cleepbus/",
         "site": null
       },
-      "version": "2.1.1",
-      "sha256": "98b0baf5081a211ee76f59c0e231ea60f5359e38e9997e2e02911878b85000ad",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.1.1.zip",
-      "compat": "cleep<=0.0.28"
+      "version": "2.2.0",
+      "sha256": "7c4e41a9de7244bac2cd9ffa4cf6c43e87997bc50b25e7a2362ae3ceab6106c0",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.0.zip",
+      "compat": "cleep<=0.0.29"
     },
     "parameters": {
       "author": "Cleep",
@@ -426,5 +426,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.1.0.zip"
     }
   },
-  "update": 1643115277
+  "update": 1643140753
 }
