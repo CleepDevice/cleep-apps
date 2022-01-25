@@ -124,7 +124,7 @@
     "system": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.1.1] - 2021-07-27\n\n### Fixed\n* Fix LED tweak on raspi zero and oldest raspi (first version)",
+      "changelog": "## [2.1.2] - 2022-01-25\n### Fixed\n- Move system python dependencies from core\n\n### Added\n- Codemirror CSS from core moved to system app",
       "confidence": 7.5,
       "country": null,
       "deps": [],
@@ -133,7 +133,7 @@
       "label": "System",
       "longdescription": "Application that helps you to configure your system",
       "price": null,
-      "quality": 9.66,
+      "quality": 9.46,
       "tags": [
         "troubleshoot",
         "monitoring",
@@ -148,10 +148,10 @@
         "info": "https://github.com/tangb/cleepmod-system",
         "site": null
       },
-      "version": "2.1.1",
-      "sha256": "e5cf0ef20f3741fe477d75b7c7057f093641a27d17484d60502723e5447be42d",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.1.zip",
-      "compat": "cleep<=0.0.28"
+      "version": "2.1.2",
+      "sha256": "13d99cc2b204f99409d1eda920d6666e5b4e3b5b1146c8d84ee47fc112087019",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.2.zip",
+      "compat": "cleep<=0.0.29"
     },
     "cleepbus": {
       "author": "Cleep",
@@ -426,5 +426,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.1.0.zip"
     }
   },
-  "update": 1643140753
+  "update": 1643142431
 }
