@@ -215,8 +215,8 @@
     "audio": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.4 - 2021-06-02\n\n* Update driver stuff after core changes",
-      "confidence": 9.5,
+      "changelog": "## [2.1.0] - 2022-01-16\n\n### Changed\n- Update app and bcm driver after core changes on audiodriver\n- Improvement to avoid app crash while loading invalid driver\n- Restart Cleep after new audio device has been selected (this allow reset Gstreamer context)\n- Improve code coverage\n\n### Added\n* Add USB driver to handle USB audio hardware",
+      "confidence": 9.7,
       "country": null,
       "deps": [],
       "description": "Configure audio on your device",
@@ -224,7 +224,7 @@
       "label": "Audio",
       "longdescription": "Application that helps you to configure audio on your device",
       "price": null,
-      "quality": 9.47,
+      "quality": 9.84,
       "tags": [
         "audio",
         "sound"
@@ -235,10 +235,10 @@
         "info": "https://github.com/tangb/cleepmod-audio",
         "site": null
       },
-      "version": "2.0.4",
-      "sha256": "6f4d68c58284d4d7e552104e8aedecebf2023d570e7f0402e19096d8359fefcb",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepapp_audio_v2.0.4.zip",
-      "compat": "cleep<=0.0.28"
+      "version": "2.1.0",
+      "sha256": "5927a905740b79da7789dba1ae22a54f8c147838fcbf86c9d256d01e68c7c62e",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepapp_audio_v2.1.0.zip",
+      "compat": "cleep<=0.0.29"
     },
     "charts": {
       "author": "Cleep",
@@ -398,7 +398,7 @@
     "audioplayer": {
       "author": "Cleep",
       "category": "MEDIA",
-      "changelog": "## [1.0.0] - 2021-11-26\n\n### Added\n\n* First release",
+      "changelog": "## [1.1.0] - 2022-01-14\n\n### Added\n\n* Create player silently (do not start music fater player created)\n* Add shuffle playlist option after playlist repeated\n* Improve command parameters checking\n* Add force_play and force_pause to pause_playback command to force player state\n* Add volume parameter to pause_playback to change player volume at once\n* Update event returns internal state instead of Gst state\n\n### Fixed\n\n* Fix issue checking parameters of add_tracks command",
       "compat": "cleep<=0.0.28",
       "confidence": 10,
       "country": null,
@@ -408,18 +408,23 @@
       "label": "Audioplayer",
       "longdescription": "This application provides an common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Propagate significative player events</li></ul>",
       "price": null,
-      "quality": 9.97,
-      "tags": [],
+      "quality": 9.87,
+      "tags": [
+        "audio",
+        "music",
+        "playback",
+        "player"
+      ],
       "urls": {
         "bugs": "https://github.com/tangb/cleepapp-audioplayer/issues",
         "help": null,
         "info": "https://github.com/tangb/cleepapp-audioplayer",
         "site": null
       },
-      "version": "1.0.0",
-      "sha256": "c18982084de64f831cce2aefceed7d73dff6ff46c9e8f2ac7d7cd92bf01b2aa8",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.0.0.zip"
+      "version": "1.1.0",
+      "sha256": "a5102fbf157631c883caa840ecd6f35cd121865facd4ad77e7e73087968d98b7",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.1.0.zip"
     }
   },
-  "update": 1638130632
+  "update": 1643115277
 }
