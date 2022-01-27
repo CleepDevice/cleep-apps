@@ -424,7 +424,35 @@
       "version": "1.1.0",
       "sha256": "a5102fbf157631c883caa840ecd6f35cd121865facd4ad77e7e73087968d98b7",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.1.0.zip"
+    },
+    "alarmclock": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## [1.0.0] - 2022-01-15\n\n### Added\n- First release",
+      "compat": "cleep<=0.0.29",
+      "confidence": 8.1,
+      "country": null,
+      "deps": [],
+      "description": "Build your own smart alarm clock",
+      "icon": "alarm",
+      "label": "Alarm clock",
+      "longdescription": "Configure time to wake up everyday",
+      "price": null,
+      "quality": 9.79,
+      "tags": [
+        "wakeup",
+        "music"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepapp-alarmclock/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepapp-alarmclock",
+        "site": null
+      },
+      "version": "1.0.0",
+      "sha256": "31552ded49e864bf865bc02f02310e03798aa6ca80131b0a13fffab78ef5f504",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643142431
+  "update": 1643314529
 }
