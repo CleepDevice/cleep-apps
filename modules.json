@@ -95,7 +95,7 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.2.0] - 2021-07-09 \n\n### Added\n* Add way to install module from zip package (useful for CI)\n\n### Fixed\n* Fix bug during uninstall: single package files wasn't uninstalled\n* Fix bug when restarting previous installation",
+      "changelog": "## [1.2.1] - 2022-01-30\n### Added\n- Add option to check compatibility",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -104,7 +104,7 @@
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 9.85,
+      "quality": 8.84,
       "tags": [
         "update",
         "application",
@@ -116,10 +116,10 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.2.0",
-      "sha256": "82569bdc2c93eea8f594bb1896df6f22c3fa2bb90e24e97f5cf7c0b37fc3e283",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.0.zip",
-      "compat": "cleep<=0.0.28"
+      "version": "1.2.1",
+      "sha256": "b1d6a9c539386886b38c403fee2317b133e4a07f5376a5290c31c838cd6e1c69",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.1.zip",
+      "compat": "cleep<=0.0.29"
     },
     "system": {
       "author": "Cleep",
@@ -454,5 +454,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643314529
+  "update": 1643540409
 }
