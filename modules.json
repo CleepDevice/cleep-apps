@@ -95,7 +95,7 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.2.2] - 2022-01-31\n### Fixed\n- Fix compatibility check\n\n### Added\n- Check if applciation is already up to date before updating it",
+      "changelog": "## [1.2.3] - 2022-01-31\n### Fixed\n- Copy package file instead instead of moving it",
       "confidence": 9.9,
       "country": null,
       "deps": [],
@@ -116,9 +116,9 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.2.2",
-      "sha256": "0ccee880cdf790a36456913c3650f524299beb55ac40abd4c6088600f2ae7b49",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.2.zip",
+      "version": "1.2.3",
+      "sha256": "8378f3bd874fc619a9b4e27470689ccca4241a1282808a0e7c1ebf1aa180dbab",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.3.zip",
       "compat": "cleep<=0.0.29"
     },
     "system": {
@@ -454,5 +454,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643649282
+  "update": 1643669666
 }
