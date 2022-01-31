@@ -95,8 +95,8 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.2.1] - 2022-01-30\n### Added\n- Add option to check compatibility",
-      "confidence": 10,
+      "changelog": "## [1.2.2] - 2022-01-31\n### Fixed\n- Fix compatibility check\n\n### Added\n- Check if applciation is already up to date before updating it",
+      "confidence": 9.9,
       "country": null,
       "deps": [],
       "description": "Applications and Cleep updater",
@@ -104,7 +104,7 @@
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 8.84,
+      "quality": 8.85,
       "tags": [
         "update",
         "application",
@@ -116,9 +116,9 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.2.1",
-      "sha256": "b1d6a9c539386886b38c403fee2317b133e4a07f5376a5290c31c838cd6e1c69",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.1.zip",
+      "version": "1.2.2",
+      "sha256": "0ccee880cdf790a36456913c3650f524299beb55ac40abd4c6088600f2ae7b49",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.2.zip",
       "compat": "cleep<=0.0.29"
     },
     "system": {
@@ -454,5 +454,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643540409
+  "update": 1643649282
 }
