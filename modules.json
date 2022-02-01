@@ -149,7 +149,7 @@
         "site": null
       },
       "version": "2.1.2",
-      "sha256": "13d99cc2b204f99409d1eda920d6666e5b4e3b5b1146c8d84ee47fc112087019",
+      "sha256": "178e21e27f9c6983a42db1da4c424c2b2e3443c7bc4e715e8596cc306151ee53",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.2.zip",
       "compat": "cleep<=0.0.29"
     },
@@ -177,7 +177,7 @@
         "site": null
       },
       "version": "2.2.0",
-      "sha256": "7c4e41a9de7244bac2cd9ffa4cf6c43e87997bc50b25e7a2362ae3ceab6106c0",
+      "sha256": "518af06a57b088813abaeaa27320aef5d6c3ef3dfd3cb53b0aca57e2a699706d",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.0.zip",
       "compat": "cleep<=0.0.29"
     },
@@ -252,7 +252,7 @@
       "label": "Charts",
       "longdescription": "Charts application automatically generates charts according to your connected sensors values.<br>It allows you to follow in time the evolution of the measurements of your sensors",
       "price": null,
-      "quality": 9.77,
+      "quality": 8.82,
       "tags": [
         "sensors",
         "graphs",
@@ -266,9 +266,9 @@
         "site": null
       },
       "version": "1.1.2",
-      "sha256": "929686e98532460c8de02c87bfcc1bad71b0db78d923bd4282759d6240e523e9",
+      "sha256": "18e8b7aaadb8f14a96476766b174aaf2d1e557afd663f6ec64b9dea867ed75d6",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.2.zip",
-      "compat": "cleep<=0.0.28"
+      "compat": "cleep<=0.0.29"
     },
     "gpios": {
       "author": "Cleep",
@@ -399,7 +399,7 @@
       "author": "Cleep",
       "category": "MEDIA",
       "changelog": "## [1.1.0] - 2022-01-14\n\n### Added\n\n* Create player silently (do not start music fater player created)\n* Add shuffle playlist option after playlist repeated\n* Improve command parameters checking\n* Add force_play and force_pause to pause_playback command to force player state\n* Add volume parameter to pause_playback to change player volume at once\n* Update event returns internal state instead of Gst state\n\n### Fixed\n\n* Fix issue checking parameters of add_tracks command",
-      "compat": "cleep<=0.0.28",
+      "compat": "cleep<=0.0.29",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -422,7 +422,7 @@
         "site": null
       },
       "version": "1.1.0",
-      "sha256": "a5102fbf157631c883caa840ecd6f35cd121865facd4ad77e7e73087968d98b7",
+      "sha256": "1fe911a1746ea482ec1f102b41f1caf8e6ac3120addba6ee707492ba174d8e08",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.1.0.zip"
     },
     "alarmclock": {
@@ -454,5 +454,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643669666
+  "update": 1643705847
 }
