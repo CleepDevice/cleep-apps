@@ -184,7 +184,7 @@
     "parameters": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.1.0] - 2021-11-28\n### Added\n* Add commands to get and check non working days",
+      "changelog": "## [2.1.1] - 2022-02-01\n### Fixed\n- Fix bug detected after new year\n- Fix unit test issue with time lib mock\n- Format files with black",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -207,10 +207,10 @@
         "info": "https://github.com/tangb/cleepmod-parameters",
         "site": null
       },
-      "version": "2.1.0",
-      "sha256": "1a92f9cd73f1d473e613abd00cda171567521dbbe7c2c2058789ba09402e7cb7",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.1.0.zip",
-      "compat": "cleep<=0.0.28"
+      "version": "2.1.1",
+      "sha256": "61577de9dc843ffb725a1c81269b5e5cece7e2983718a8153fd988dfe15ff910",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.1.1.zip",
+      "compat": "cleep<=0.0.29"
     },
     "audio": {
       "author": "Cleep",
@@ -454,5 +454,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643740397
+  "update": 1643743511
 }
