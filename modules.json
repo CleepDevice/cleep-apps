@@ -45,7 +45,7 @@
       "label": "Fourletterdisplay",
       "longdescription": "This application installs all needed to use Four-letter pHAT from Piromoni.<br>It allows to display informations from your device (like weather temperature, CPU usage and more) through four letters.<br>Long text (more than 4 letters) will scroll automatically and displayed dots can be configured individually.<br>Brightness is also configurable with a night mode with a night mode",
       "price": null,
-      "quality": 9.34,
+      "quality": 9.09,
       "tags": [
         "display",
         "pimoroni",
@@ -59,9 +59,9 @@
         "site": "https://shop.pimoroni.com/products/four-letter-phat"
       },
       "version": "1.0.3",
-      "sha256": "984c1786bc577a25cde4fe661b9156495b39a6c5fe434a8c4dc9059d00b27933",
+      "sha256": "9a726cb77125436e95c4febbb44bd628f4e68d35e9892671adc0fff97ac3f930",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.0.3.zip",
-      "compat": "cleep<=0.0.28"
+      "compat": "cleep<=0.0.29"
     },
     "network": {
       "author": "Cleep",
@@ -75,7 +75,7 @@
       "label": "Network",
       "longdescription": "Application that helps you to configure device network connection",
       "price": null,
-      "quality": 9.65,
+      "quality": 8.99,
       "tags": [
         "wireless",
         "wifi",
@@ -88,9 +88,9 @@
         "site": null
       },
       "version": "2.0.3",
-      "sha256": "f674ad08c2f3f826e0a5e27124fe458eda1b06c322f1d65edd04a20ae7a8b2d5",
+      "sha256": "79916b3243ce1468452f2caafd903eb73206bb968cc81a299da5d452e2eb1772",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepapp_network_v2.0.3.zip",
-      "compat": "cleep<=0.0.28"
+      "compat": "cleep<=0.0.29"
     },
     "update": {
       "author": "Cleep",
@@ -364,7 +364,7 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [v3.0.0] - 2021-10-16\n\n### Added\n* Full code coverage\n* Review layout\n\n### Fixed\n* Small issues discovered during unit tests writing\n\n### Removed\n* Functionnalities deported to cleep-cli\n* Logs display that already exists on core system app",
-      "compat": "cleep<=0.0.28",
+      "compat": "cleep<=0.0.29",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -392,7 +392,7 @@
         "site": null
       },
       "version": "3.0.0",
-      "sha256": "f5b4dc50351c39a4648b0d3084801697c39a8a23e19707409f3879a8ab95244a",
+      "sha256": "2c359326976a63802a1ae654e9eb21ad5eb152c6827dfdaeeaacd06a9869502c",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/developer/cleepapp_developer_v3.0.0.zip"
     },
     "audioplayer": {
@@ -454,5 +454,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643705847
+  "update": 1643740397
 }
