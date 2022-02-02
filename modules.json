@@ -12,7 +12,7 @@
       "label": "Teleinfo",
       "longdescription": "This application reads data from Enedis Linky (or older compatible version) house                              power meter and make<br>possible to monitor your house power consumption usage and                              build charts on some useful indicators.",
       "price": null,
-      "quality": 9.9,
+      "quality": 9.39,
       "tags": [
         "electricity",
         "power",
@@ -29,9 +29,9 @@
         "site": "https://www.enedis.fr/"
       },
       "version": "1.1.2",
-      "sha256": "91a8d1188823d50a4a5693c591f683b310938361e8575855d3fdcda6cfa6a1b2",
+      "sha256": "d47b08ed675745447e8fdfd3c594c5a36128806211c35dbbf35a464c626f07fd",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.2.zip",
-      "compat": "cleep<=0.0.28"
+      "compat": "cleep<=0.0.29"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -282,7 +282,7 @@
       "label": "Gpios",
       "longdescription": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish quickly and easily.",
       "price": null,
-      "quality": 9.61,
+      "quality": 8.57,
       "tags": [
         "gpios",
         "inputs",
@@ -295,9 +295,9 @@
         "site": null
       },
       "version": "1.1.3",
-      "sha256": "1685c06cc1b20bc60e745d1891f5acb46760cc3f582b32c7143aa12b3227af39",
+      "sha256": "d81b68fb53bab66e0b7de3c3317625ad4b36a9cba8bf0c30851e68c680807814",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.3.zip",
-      "compat": "cleep<=0.0.28"
+      "compat": "cleep<=0.0.29"
     },
     "openweathermap": {
       "author": "Cleep",
@@ -450,9 +450,9 @@
         "site": null
       },
       "version": "1.0.0",
-      "sha256": "31552ded49e864bf865bc02f02310e03798aa6ca80131b0a13fffab78ef5f504",
+      "sha256": "a016824dad4d552273f5c1c7a28269aaa5a51ad3d49b03e5d55e3a0d3dd6f8ec",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643743511
+  "update": 1643785782
 }
