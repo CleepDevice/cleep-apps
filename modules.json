@@ -95,7 +95,7 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.2.3] - 2022-01-31\n### Fixed\n- Copy package file instead instead of moving it",
+      "changelog": "## [1.2.4] - 2022-02-22\n### Fixed\n- Fix problem to install dependencies from package",
       "confidence": 9.9,
       "country": null,
       "deps": [],
@@ -104,7 +104,7 @@
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 8.85,
+      "quality": 8.81,
       "tags": [
         "update",
         "application",
@@ -116,9 +116,9 @@
         "info": "https://github.com/tangb/cleepmod-update",
         "site": null
       },
-      "version": "1.2.3",
-      "sha256": "8378f3bd874fc619a9b4e27470689ccca4241a1282808a0e7c1ebf1aa180dbab",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.3.zip",
+      "version": "1.2.4",
+      "sha256": "4afbc41ddc9ba256aebbcd340649d5e3f435bea1cd31458f715c9db08221b3ef",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.4.zip",
       "compat": "cleep<=0.0.29"
     },
     "system": {
@@ -454,5 +454,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643785782
+  "update": 1643892000
 }
