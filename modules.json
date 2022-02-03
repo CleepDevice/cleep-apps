@@ -331,7 +331,7 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## v1.1.0 - 2021-05-24\n\n* Migration to python3\n* Update after core changes\n* Update after gpios changes\n* Improve code quality and confidence",
-      "compat": "cleep<=0.0.28",
+      "compat": "cleep<=0.0.29",
       "confidence": 9.9,
       "country": null,
       "deps": [
@@ -342,7 +342,7 @@
       "label": "Sensors",
       "longdescription": "With this module you will be able to follow environment temperature, detect some motion around your device, detect when light level is dim... and trigger some action according to those stimuli.",
       "price": null,
-      "quality": 9.5,
+      "quality": 7.91,
       "tags": [
         "sensors",
         "temperature",
@@ -357,7 +357,7 @@
         "site": null
       },
       "version": "1.1.0",
-      "sha256": "80c89cf218a2ee545b6de77a49344c10e861ff6ac8271eef01d70176b84a0023",
+      "sha256": "05fa89ec4c96fb462d9cc9e0368ee9e005f4cabde4174da7e7d81bdd0262506a",
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/sensors/cleepapp_sensors_v1.1.0.zip"
     },
     "developer": {
@@ -454,5 +454,5 @@
       "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
     }
   },
-  "update": 1643892000
+  "update": 1643898238
 }
