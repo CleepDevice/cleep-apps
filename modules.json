@@ -1,230 +1,49 @@
 {
   "list": {
-    "teleinfo": {
-      "author": "Cleep",
-      "category": "SERVICE",
-      "changelog": "## [1.1.2] - 2021-07-31\n\n### Fixed\n* Fix widget that wasn't displayed",
-      "confidence": 9.8,
-      "country": "fr",
-      "deps": [],
-      "description": "Gets house power consumption infos from Enedis electric power meter",
-      "icon": "transmission-tower",
-      "label": "Teleinfo",
-      "longdescription": "This application reads data from Enedis Linky (or older compatible version) house                              power meter and make<br>possible to monitor your house power consumption usage and                              build charts on some useful indicators.",
-      "price": null,
-      "quality": 9.39,
-      "tags": [
-        "electricity",
-        "power",
-        "teleinfo",
-        "enedis",
-        "edf",
-        "erdf",
-        "engie"
-      ],
-      "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-teleinfo/issues",
-        "help": "https://github.com/tangb/cleepmod-teleinfo/wiki",
-        "info": "https://github.com/tangb/cleepmod-teleinfo",
-        "site": "https://www.enedis.fr/"
-      },
-      "version": "1.1.2",
-      "sha256": "d47b08ed675745447e8fdfd3c594c5a36128806211c35dbbf35a464c626f07fd",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.2.zip",
-      "compat": "cleep<=0.0.29"
-    },
-    "fourletterdisplay": {
-      "author": "Cleep",
-      "category": "DRIVER",
-      "changelog": "## v1.0.3 - 2021-06-04\n\n* Backend: update formatters after core changes\n* Backend: update driver after core changes",
-      "confidence": 9.3,
-      "country": null,
-      "deps": [],
-      "description": "Four-letter pHAT display",
-      "icon": "clock-digital",
-      "label": "Fourletterdisplay",
-      "longdescription": "This application installs all needed to use Four-letter pHAT from Piromoni.<br>It allows to display informations from your device (like weather temperature, CPU usage and more) through four letters.<br>Long text (more than 4 letters) will scroll automatically and displayed dots can be configured individually.<br>Brightness is also configurable with a night mode with a night mode",
-      "price": null,
-      "quality": 9.09,
-      "tags": [
-        "display",
-        "pimoroni",
-        "digits",
-        "segments"
-      ],
-      "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-teleinfo/issues",
-        "help": "https://github.com/tangb/cleepmod-teleinfo/wiki",
-        "info": "https://github.com/tangb/cleepmod-fourletterhat",
-        "site": "https://shop.pimoroni.com/products/four-letter-phat"
-      },
-      "version": "1.0.3",
-      "sha256": "9a726cb77125436e95c4febbb44bd628f4e68d35e9892671adc0fff97ac3f930",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.0.3.zip",
-      "compat": "cleep<=0.0.29"
-    },
-    "network": {
+    "alarmclock": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.3 - 2021-06-06\n\n* Fix tests after core changes",
-      "confidence": 9.2,
+      "changelog": "## [1.0.0] - 2022-01-15\n\n### Added\n- First release",
+      "compat": "cleep<=0.0.29",
+      "confidence": 8.1,
       "country": null,
       "deps": [],
-      "description": "Configure how your device connect to your network",
-      "icon": "ethernet",
-      "label": "Network",
-      "longdescription": "Application that helps you to configure device network connection",
+      "description": "Build your own smart alarm clock",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip",
+      "icon": "alarm",
+      "label": "Alarm clock",
+      "longdescription": "Configure time to wake up everyday",
       "price": null,
-      "quality": 8.99,
+      "quality": 9.79,
+      "sha256": "a016824dad4d552273f5c1c7a28269aaa5a51ad3d49b03e5d55e3a0d3dd6f8ec",
       "tags": [
-        "wireless",
-        "wifi",
-        "ethernet"
+        "wakeup",
+        "music"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-network/issues",
-        "help": "https://github.com/tangb/cleepmod-network/wiki/Help",
-        "info": "https://github.com/tangb/cleepmod-network/wiki",
-        "site": null
-      },
-      "version": "2.0.3",
-      "sha256": "79916b3243ce1468452f2caafd903eb73206bb968cc81a299da5d452e2eb1772",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepapp_network_v2.0.3.zip",
-      "compat": "cleep<=0.0.29"
-    },
-    "update": {
-      "author": "Cleep",
-      "category": "APPLICATION",
-      "changelog": "## [1.2.4] - 2022-02-22\n### Fixed\n- Fix problem to install dependencies from package",
-      "confidence": 9.9,
-      "country": null,
-      "deps": [],
-      "description": "Applications and Cleep updater",
-      "icon": "update",
-      "label": "Update",
-      "longdescription": "Manage all Cleep applications and Cleep core updates.",
-      "price": null,
-      "quality": 8.81,
-      "tags": [
-        "update",
-        "application",
-        "module"
-      ],
-      "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-update/issues",
+        "bugs": "https://github.com/tangb/cleepapp-alarmclock/issues",
         "help": null,
-        "info": "https://github.com/tangb/cleepmod-update",
+        "info": "https://github.com/tangb/cleepapp-alarmclock",
         "site": null
       },
-      "version": "1.2.4",
-      "sha256": "4afbc41ddc9ba256aebbcd340649d5e3f435bea1cd31458f715c9db08221b3ef",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.4.zip",
-      "compat": "cleep<=0.0.29"
-    },
-    "system": {
-      "author": "Cleep",
-      "category": "APPLICATION",
-      "changelog": "## [2.1.2] - 2022-01-25\n### Fixed\n- Move system python dependencies from core\n\n### Added\n- Codemirror CSS from core moved to system app",
-      "confidence": 7.5,
-      "country": null,
-      "deps": [],
-      "description": "Helps controlling and monitoring the device",
-      "icon": "heart-pulse",
-      "label": "System",
-      "longdescription": "Application that helps you to configure your system",
-      "price": null,
-      "quality": 9.46,
-      "tags": [
-        "troubleshoot",
-        "monitoring",
-        "log",
-        "rendering",
-        "driver",
-        "backup"
-      ],
-      "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-system/issues",
-        "help": null,
-        "info": "https://github.com/tangb/cleepmod-system",
-        "site": null
-      },
-      "version": "2.1.2",
-      "sha256": "178e21e27f9c6983a42db1da4c424c2b2e3443c7bc4e715e8596cc306151ee53",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.2.zip",
-      "compat": "cleep<=0.0.29"
-    },
-    "cleepbus": {
-      "author": "Cleep",
-      "category": "APPLICATION",
-      "changelog": "## [2.2.0] - 2022-01-25\n### Changed\n- Remove useless python dependencies (mandatory in core)",
-      "confidence": 9.9,
-      "country": null,
-      "deps": [],
-      "description": "Enables communications between all your Cleep devices through your home network",
-      "icon": "bus",
-      "label": "Cleepbus",
-      "longdescription": "Application that enables communication between devices",
-      "price": null,
-      "quality": 8.82,
-      "tags": [
-        "bus",
-        "communication"
-      ],
-      "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-cleepbus/issues",
-        "help": null,
-        "info": "https://github.com/tangb/cleepmod-cleepbus/",
-        "site": null
-      },
-      "version": "2.2.0",
-      "sha256": "518af06a57b088813abaeaa27320aef5d6c3ef3dfd3cb53b0aca57e2a699706d",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.0.zip",
-      "compat": "cleep<=0.0.29"
-    },
-    "parameters": {
-      "author": "Cleep",
-      "category": "APPLICATION",
-      "changelog": "## [2.1.1] - 2022-02-01\n### Fixed\n- Fix bug detected after new year\n- Fix unit test issue with time lib mock\n- Format files with black",
-      "confidence": 10,
-      "country": null,
-      "deps": [],
-      "description": "Configure generic parameters of your device",
-      "icon": "tune-vertical",
-      "label": "Parameters",
-      "longdescription": "Application that helps you to configure generic parameters of your device",
-      "price": null,
-      "quality": 9.36,
-      "tags": [
-        "configuration",
-        "date",
-        "time",
-        "locale",
-        "lang"
-      ],
-      "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-parameters/issues",
-        "help": null,
-        "info": "https://github.com/tangb/cleepmod-parameters",
-        "site": null
-      },
-      "version": "2.1.1",
-      "sha256": "61577de9dc843ffb725a1c81269b5e5cece7e2983718a8153fd988dfe15ff910",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.1.1.zip",
-      "compat": "cleep<=0.0.29"
+      "version": "1.0.0"
     },
     "audio": {
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [2.1.0] - 2022-01-16\n\n### Changed\n- Update app and bcm driver after core changes on audiodriver\n- Improvement to avoid app crash while loading invalid driver\n- Restart Cleep after new audio device has been selected (this allow reset Gstreamer context)\n- Improve code coverage\n\n### Added\n* Add USB driver to handle USB audio hardware",
+      "compat": "cleep<=0.0.29",
       "confidence": 9.7,
       "country": null,
       "deps": [],
       "description": "Configure audio on your device",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepapp_audio_v2.1.0.zip",
       "icon": "speaker",
       "label": "Audio",
       "longdescription": "Application that helps you to configure audio on your device",
       "price": null,
       "quality": 9.84,
+      "sha256": "5927a905740b79da7789dba1ae22a54f8c147838fcbf86c9d256d01e68c7c62e",
       "tags": [
         "audio",
         "sound"
@@ -235,24 +54,54 @@
         "info": "https://github.com/tangb/cleepmod-audio",
         "site": null
       },
-      "version": "2.1.0",
-      "sha256": "5927a905740b79da7789dba1ae22a54f8c147838fcbf86c9d256d01e68c7c62e",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepapp_audio_v2.1.0.zip",
-      "compat": "cleep<=0.0.29"
+      "version": "2.1.0"
+    },
+    "audioplayer": {
+      "author": "Cleep",
+      "category": "MEDIA",
+      "changelog": "## [1.1.0] - 2022-01-14\n\n### Added\n\n* Create player silently (do not start music fater player created)\n* Add shuffle playlist option after playlist repeated\n* Improve command parameters checking\n* Add force_play and force_pause to pause_playback command to force player state\n* Add volume parameter to pause_playback to change player volume at once\n* Update event returns internal state instead of Gst state\n\n### Fixed\n\n* Fix issue checking parameters of add_tracks command",
+      "compat": "cleep<=0.0.29",
+      "confidence": 10,
+      "country": null,
+      "deps": [],
+      "description": "Enjoy music playback",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.1.0.zip",
+      "icon": "music-circle",
+      "label": "Audioplayer",
+      "longdescription": "This application provides an common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Propagate significative player events</li></ul>",
+      "price": null,
+      "quality": 9.87,
+      "sha256": "1fe911a1746ea482ec1f102b41f1caf8e6ac3120addba6ee707492ba174d8e08",
+      "tags": [
+        "audio",
+        "music",
+        "playback",
+        "player"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepapp-audioplayer/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepapp-audioplayer",
+        "site": null
+      },
+      "version": "1.1.0"
     },
     "charts": {
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [1.1.2] - 2021-07-31\n\n### Fixed\n* Fix random issue due to nv-d3 library loading",
+      "compat": "cleep<=0.0.29",
       "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Follow easily your sensors values graphically.",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.2.zip",
       "icon": "chart-areaspline",
       "label": "Charts",
       "longdescription": "Charts application automatically generates charts according to your connected sensors values.<br>It allows you to follow in time the evolution of the measurements of your sensors",
       "price": null,
       "quality": 8.82,
+      "sha256": "18e8b7aaadb8f14a96476766b174aaf2d1e557afd663f6ec64b9dea867ed75d6",
       "tags": [
         "sensors",
         "graphs",
@@ -265,100 +114,35 @@
         "info": "https://github.com/tangb/cleepmod-charts",
         "site": null
       },
-      "version": "1.1.2",
-      "sha256": "18e8b7aaadb8f14a96476766b174aaf2d1e557afd663f6ec64b9dea867ed75d6",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.2.zip",
-      "compat": "cleep<=0.0.29"
+      "version": "1.1.2"
     },
-    "gpios": {
-      "author": "Cleep",
-      "category": "DRIVER",
-      "changelog": "## [1.1.3] - 2021-07-31\n\n### Changed\n* Frontend service doesn't have to catch update events",
-      "confidence": 10,
-      "country": null,
-      "deps": [],
-      "description": "Configure your raspberry pins",
-      "icon": "drag-horizontal",
-      "label": "Gpios",
-      "longdescription": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish quickly and easily.",
-      "price": null,
-      "quality": 8.57,
-      "tags": [
-        "gpios",
-        "inputs",
-        "outputs"
-      ],
-      "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-gpios/issues",
-        "help": "https://github.com/tangb/cleepmod-gpios/wiki",
-        "info": "https://github.com/tangb/cleepmod-gpios",
-        "site": null
-      },
-      "version": "1.1.3",
-      "sha256": "d81b68fb53bab66e0b7de3c3317625ad4b36a9cba8bf0c30851e68c680807814",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.3.zip",
-      "compat": "cleep<=0.0.29"
-    },
-    "openweathermap": {
-      "author": "Cleep",
-      "category": "SERVICE",
-      "changelog": "## [1.2.2] - 2021-07-09\n\n### Fixed\n* Fix invalid apikey issue\n* Fix invalid app urls",
-      "compat": "cleep<=0.0.28",
-      "confidence": 10,
-      "country": null,
-      "deps": [],
-      "description": "Gets weather conditions using OpenWeatherMap service",
-      "icon": "cloud",
-      "label": "Openweathermap",
-      "longdescription": "This application gets data from OpenWeatherMap online service and displays it directly on your device dashboard.<br>OpenWeatherMap allows to get for free current weather condition and 5 days forecast.<br> This application also broadcasts weather event on all your devices.",
-      "price": null,
-      "quality": 9.74,
-      "tags": [
-        "weather",
-        "forecast"
-      ],
-      "urls": {
-        "bugs": "https://github.com/tangb/cleepapp-openweathermap/issues",
-        "help": null,
-        "info": "https://github.com/tangb/cleepapp-openweathermap",
-        "site": "https://openweathermap.org/"
-      },
-      "version": "1.2.2",
-      "sha256": "113ed4d7fda4b77b8ad0f7abeb647bfca2dc4b7ecfb5bbbf87b7808590ad1336",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.2.zip"
-    },
-    "sensors": {
+    "cleepbus": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.1.0 - 2021-05-24\n\n* Migration to python3\n* Update after core changes\n* Update after gpios changes\n* Improve code quality and confidence",
+      "changelog": "## [2.2.0] - 2022-01-25\n### Changed\n- Remove useless python dependencies (mandatory in core)",
       "compat": "cleep<=0.0.29",
       "confidence": 9.9,
       "country": null,
-      "deps": [
-        "gpios"
-      ],
-      "description": "Implements easily and quickly sensors like temperature, motion, light...",
-      "icon": "chip",
-      "label": "Sensors",
-      "longdescription": "With this module you will be able to follow environment temperature, detect some motion around your device, detect when light level is dim... and trigger some action according to those stimuli.",
+      "deps": [],
+      "description": "Enables communications between all your Cleep devices through your home network",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.0.zip",
+      "icon": "bus",
+      "label": "Cleepbus",
+      "longdescription": "Application that enables communication between devices",
       "price": null,
-      "quality": 7.91,
+      "quality": 8.82,
+      "sha256": "518af06a57b088813abaeaa27320aef5d6c3ef3dfd3cb53b0aca57e2a699706d",
       "tags": [
-        "sensors",
-        "temperature",
-        "motion",
-        "onewire",
-        "1wire"
+        "bus",
+        "communication"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-sensors/issues",
+        "bugs": "https://github.com/tangb/cleepmod-cleepbus/issues",
         "help": null,
-        "info": "https://github.com/tangb/cleepmod-sensors",
+        "info": "https://github.com/tangb/cleepmod-cleepbus/",
         "site": null
       },
-      "version": "1.1.0",
-      "sha256": "05fa89ec4c96fb462d9cc9e0368ee9e005f4cabde4174da7e7d81bdd0262506a",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/sensors/cleepapp_sensors_v1.1.0.zip"
+      "version": "2.2.0"
     },
     "developer": {
       "author": "Cleep",
@@ -369,11 +153,13 @@
       "country": null,
       "deps": [],
       "description": "Helps you to develop Cleep applications.",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/developer/cleepapp_developer_v3.0.0.zip",
       "icon": "account-hard-hat",
       "label": "Developer",
       "longdescription": "Developer module helps you to develop on Cleep installing         and preconfiguring sync tools. It also provides a full page that helps you to         check and build your own application.<br/>This module will provide the official way to         publish your module on Cleep market.<br/><br/>Lot of resources are available         on developer module wiki, have a look and start enjoying Cleep!",
       "price": null,
       "quality": 8.78,
+      "sha256": "2c359326976a63802a1ae654e9eb21ad5eb152c6827dfdaeeaacd06a9869502c",
       "tags": [
         "developer",
         "python",
@@ -391,68 +177,282 @@
         "info": "https://github.com/tangb/cleepmod-developer",
         "site": null
       },
-      "version": "3.0.0",
-      "sha256": "2c359326976a63802a1ae654e9eb21ad5eb152c6827dfdaeeaacd06a9869502c",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/developer/cleepapp_developer_v3.0.0.zip"
+      "version": "3.0.0"
     },
-    "audioplayer": {
+    "fourletterdisplay": {
       "author": "Cleep",
-      "category": "MEDIA",
-      "changelog": "## [1.1.0] - 2022-01-14\n\n### Added\n\n* Create player silently (do not start music fater player created)\n* Add shuffle playlist option after playlist repeated\n* Improve command parameters checking\n* Add force_play and force_pause to pause_playback command to force player state\n* Add volume parameter to pause_playback to change player volume at once\n* Update event returns internal state instead of Gst state\n\n### Fixed\n\n* Fix issue checking parameters of add_tracks command",
+      "category": "DRIVER",
+      "changelog": "## v1.0.3 - 2021-06-04\n\n* Backend: update formatters after core changes\n* Backend: update driver after core changes",
+      "compat": "cleep<=0.0.29",
+      "confidence": 9.3,
+      "country": null,
+      "deps": [],
+      "description": "Four-letter pHAT display",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.0.3.zip",
+      "icon": "clock-digital",
+      "label": "Fourletterdisplay",
+      "longdescription": "This application installs all needed to use Four-letter pHAT from Piromoni.<br>It allows to display informations from your device (like weather temperature, CPU usage and more) through four letters.<br>Long text (more than 4 letters) will scroll automatically and displayed dots can be configured individually.<br>Brightness is also configurable with a night mode with a night mode",
+      "price": null,
+      "quality": 9.09,
+      "sha256": "9a726cb77125436e95c4febbb44bd628f4e68d35e9892671adc0fff97ac3f930",
+      "tags": [
+        "display",
+        "pimoroni",
+        "digits",
+        "segments"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-teleinfo/issues",
+        "help": "https://github.com/tangb/cleepmod-teleinfo/wiki",
+        "info": "https://github.com/tangb/cleepmod-fourletterhat",
+        "site": "https://shop.pimoroni.com/products/four-letter-phat"
+      },
+      "version": "1.0.3"
+    },
+    "gpios": {
+      "author": "Cleep",
+      "category": "DRIVER",
+      "changelog": "## [1.1.3] - 2021-07-31\n\n### Changed\n* Frontend service doesn't have to catch update events",
       "compat": "cleep<=0.0.29",
       "confidence": 10,
       "country": null,
       "deps": [],
-      "description": "Enjoy music playback",
-      "icon": "music-circle",
-      "label": "Audioplayer",
-      "longdescription": "This application provides an common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Propagate significative player events</li></ul>",
+      "description": "Configure your raspberry pins",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.1.3.zip",
+      "icon": "drag-horizontal",
+      "label": "Gpios",
+      "longdescription": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish quickly and easily.",
       "price": null,
-      "quality": 9.87,
+      "quality": 8.57,
+      "sha256": "d81b68fb53bab66e0b7de3c3317625ad4b36a9cba8bf0c30851e68c680807814",
       "tags": [
-        "audio",
-        "music",
-        "playback",
-        "player"
+        "gpios",
+        "inputs",
+        "outputs"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepapp-audioplayer/issues",
-        "help": null,
-        "info": "https://github.com/tangb/cleepapp-audioplayer",
+        "bugs": "https://github.com/tangb/cleepmod-gpios/issues",
+        "help": "https://github.com/tangb/cleepmod-gpios/wiki",
+        "info": "https://github.com/tangb/cleepmod-gpios",
         "site": null
       },
-      "version": "1.1.0",
-      "sha256": "1fe911a1746ea482ec1f102b41f1caf8e6ac3120addba6ee707492ba174d8e08",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.1.0.zip"
+      "version": "1.1.3"
     },
-    "alarmclock": {
+    "network": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.0.0] - 2022-01-15\n\n### Added\n- First release",
+      "changelog": "## v2.0.3 - 2021-06-06\n\n* Fix tests after core changes",
       "compat": "cleep<=0.0.29",
-      "confidence": 8.1,
+      "confidence": 9.2,
       "country": null,
       "deps": [],
-      "description": "Build your own smart alarm clock",
-      "icon": "alarm",
-      "label": "Alarm clock",
-      "longdescription": "Configure time to wake up everyday",
+      "description": "Configure how your device connect to your network",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepapp_network_v2.0.3.zip",
+      "icon": "ethernet",
+      "label": "Network",
+      "longdescription": "Application that helps you to configure device network connection",
       "price": null,
-      "quality": 9.79,
+      "quality": 8.99,
+      "sha256": "79916b3243ce1468452f2caafd903eb73206bb968cc81a299da5d452e2eb1772",
       "tags": [
-        "wakeup",
-        "music"
+        "wireless",
+        "wifi",
+        "ethernet"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepapp-alarmclock/issues",
-        "help": null,
-        "info": "https://github.com/tangb/cleepapp-alarmclock",
+        "bugs": "https://github.com/tangb/cleepmod-network/issues",
+        "help": "https://github.com/tangb/cleepmod-network/wiki/Help",
+        "info": "https://github.com/tangb/cleepmod-network/wiki",
         "site": null
       },
-      "version": "1.0.0",
-      "sha256": "a016824dad4d552273f5c1c7a28269aaa5a51ad3d49b03e5d55e3a0d3dd6f8ec",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip"
+      "version": "2.0.3"
+    },
+    "openweathermap": {
+      "author": "Cleep",
+      "category": "SERVICE",
+      "changelog": "## [1.2.3] - 2022-02-03\n### Fixed\n- Fix missing D3 library which is no longer part of core",
+      "compat": "cleep<=0.0.29",
+      "confidence": 10,
+      "country": null,
+      "deps": [],
+      "description": "Gets weather conditions using OpenWeatherMap service",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/openweathermap/cleepapp_openweathermap_v1.2.3.zip",
+      "icon": "cloud",
+      "label": "Openweathermap",
+      "longdescription": "This application gets data from OpenWeatherMap online service and displays it directly on your device dashboard.<br>OpenWeatherMap allows to get for free current weather condition and 5 days forecast.<br> This application also broadcasts weather event on all your devices.",
+      "price": null,
+      "quality": 8.75,
+      "sha256": "610088c419859dafee67917bb6c05d222e0422cb3de807dd1517dc58b293c2a9",
+      "tags": [
+        "weather",
+        "forecast"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepapp-openweathermap/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepapp-openweathermap",
+        "site": "https://openweathermap.org/"
+      },
+      "version": "1.2.3"
+    },
+    "parameters": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## [2.1.1] - 2022-02-01\n### Fixed\n- Fix bug detected after new year\n- Fix unit test issue with time lib mock\n- Format files with black",
+      "compat": "cleep<=0.0.29",
+      "confidence": 10,
+      "country": null,
+      "deps": [],
+      "description": "Configure generic parameters of your device",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.1.1.zip",
+      "icon": "tune-vertical",
+      "label": "Parameters",
+      "longdescription": "Application that helps you to configure generic parameters of your device",
+      "price": null,
+      "quality": 9.36,
+      "sha256": "61577de9dc843ffb725a1c81269b5e5cece7e2983718a8153fd988dfe15ff910",
+      "tags": [
+        "configuration",
+        "date",
+        "time",
+        "locale",
+        "lang"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-parameters/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-parameters",
+        "site": null
+      },
+      "version": "2.1.1"
+    },
+    "sensors": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## v1.1.0 - 2021-05-24\n\n* Migration to python3\n* Update after core changes\n* Update after gpios changes\n* Improve code quality and confidence",
+      "compat": "cleep<=0.0.29",
+      "confidence": 9.9,
+      "country": null,
+      "deps": [
+        "gpios"
+      ],
+      "description": "Implements easily and quickly sensors like temperature, motion, light...",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/sensors/cleepapp_sensors_v1.1.0.zip",
+      "icon": "chip",
+      "label": "Sensors",
+      "longdescription": "With this module you will be able to follow environment temperature, detect some motion around your device, detect when light level is dim... and trigger some action according to those stimuli.",
+      "price": null,
+      "quality": 7.91,
+      "sha256": "05fa89ec4c96fb462d9cc9e0368ee9e005f4cabde4174da7e7d81bdd0262506a",
+      "tags": [
+        "sensors",
+        "temperature",
+        "motion",
+        "onewire",
+        "1wire"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-sensors/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-sensors",
+        "site": null
+      },
+      "version": "1.1.0"
+    },
+    "system": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## [2.1.2] - 2022-01-25\n### Fixed\n- Move system python dependencies from core\n\n### Added\n- Codemirror CSS from core moved to system app",
+      "compat": "cleep<=0.0.29",
+      "confidence": 7.5,
+      "country": null,
+      "deps": [],
+      "description": "Helps controlling and monitoring the device",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.2.zip",
+      "icon": "heart-pulse",
+      "label": "System",
+      "longdescription": "Application that helps you to configure your system",
+      "price": null,
+      "quality": 9.46,
+      "sha256": "178e21e27f9c6983a42db1da4c424c2b2e3443c7bc4e715e8596cc306151ee53",
+      "tags": [
+        "troubleshoot",
+        "monitoring",
+        "log",
+        "rendering",
+        "driver",
+        "backup"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-system/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-system",
+        "site": null
+      },
+      "version": "2.1.2"
+    },
+    "teleinfo": {
+      "author": "Cleep",
+      "category": "SERVICE",
+      "changelog": "## [1.1.2] - 2021-07-31\n\n### Fixed\n* Fix widget that wasn't displayed",
+      "compat": "cleep<=0.0.29",
+      "confidence": 9.8,
+      "country": "fr",
+      "deps": [],
+      "description": "Gets house power consumption infos from Enedis electric power meter",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/teleinfo/cleepapp_teleinfo_v1.1.2.zip",
+      "icon": "transmission-tower",
+      "label": "Teleinfo",
+      "longdescription": "This application reads data from Enedis Linky (or older compatible version) house                              power meter and make<br>possible to monitor your house power consumption usage and                              build charts on some useful indicators.",
+      "price": null,
+      "quality": 9.39,
+      "sha256": "d47b08ed675745447e8fdfd3c594c5a36128806211c35dbbf35a464c626f07fd",
+      "tags": [
+        "electricity",
+        "power",
+        "teleinfo",
+        "enedis",
+        "edf",
+        "erdf",
+        "engie"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-teleinfo/issues",
+        "help": "https://github.com/tangb/cleepmod-teleinfo/wiki",
+        "info": "https://github.com/tangb/cleepmod-teleinfo",
+        "site": "https://www.enedis.fr/"
+      },
+      "version": "1.1.2"
+    },
+    "update": {
+      "author": "Cleep",
+      "category": "APPLICATION",
+      "changelog": "## [1.2.4] - 2022-02-22\n### Fixed\n- Fix problem to install dependencies from package",
+      "compat": "cleep<=0.0.29",
+      "confidence": 9.9,
+      "country": null,
+      "deps": [],
+      "description": "Applications and Cleep updater",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.4.zip",
+      "icon": "update",
+      "label": "Update",
+      "longdescription": "Manage all Cleep applications and Cleep core updates.",
+      "price": null,
+      "quality": 8.81,
+      "sha256": "4afbc41ddc9ba256aebbcd340649d5e3f435bea1cd31458f715c9db08221b3ef",
+      "tags": [
+        "update",
+        "application",
+        "module"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-update/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepmod-update",
+        "site": null
+      },
+      "version": "1.2.4"
     }
   },
-  "update": 1643898238
+  "update": 1643925963
 }
