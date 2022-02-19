@@ -238,6 +238,37 @@
       },
       "version": "1.1.3"
     },
+    "localmusic": {
+      "author": "Cleep",
+      "category": "MEDIA",
+      "changelog": "## [1.0.0] - 2022-01-29\n### Added\n- First release",
+      "compat": "cleep<=0.0.29",
+      "confidence": 10,
+      "country": null,
+      "deps": [
+        "audioplayer"
+      ],
+      "description": "Create your music playlist with device files",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/localmusic/cleepapp_localmusic_v1.0.0.zip",
+      "icon": "folder-music-outline",
+      "label": "Local music",
+      "longdescription": "Create your playlist with music files uploaded to your devices",
+      "price": null,
+      "quality": 9.79,
+      "sha256": "9cf651131b8db07fab923f80474c8d1cf073b992884fab8dcde9e2b1b42b4ba9",
+      "tags": [
+        "music",
+        "playlist",
+        "local"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepapp-localmusic/issues",
+        "help": null,
+        "info": "https://github.com/tangb/cleepapp-localmusic",
+        "site": null
+      },
+      "version": "1.0.0"
+    },
     "network": {
       "author": "Cleep",
       "category": "APPLICATION",
@@ -454,5 +485,5 @@
       "version": "1.2.4"
     }
   },
-  "update": 1643925963
+  "update": 1645282000
 }
