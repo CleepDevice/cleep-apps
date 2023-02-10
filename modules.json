@@ -119,19 +119,19 @@
     "cleepbus": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.2.1] - 2023-02-08\n### Changed\n- Update pyzmq dep to cleep-pyzmq for build optimization (pre build armhf bin)",
+      "changelog": "## [2.2.2] - 2023-02-10\n### Changed\n- Install provided pyzmq library instead of pypi one",
       "compat": "cleep<=0.0.29",
       "confidence": 9.9,
       "country": null,
       "deps": [],
       "description": "Enables communications between all your Cleep devices through your home network",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.1.zip",
+      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.2.zip",
       "icon": "bus",
       "label": "Cleepbus",
       "longdescription": "Application that enables communication between devices",
       "price": null,
       "quality": 8.82,
-      "sha256": "04a041c3c0487bcd0ff3e9585c6eb377c71fb68c206d447019aebd22f8c51eb9",
+      "sha256": "002bd314f956ec7a516d9e27e2a9f139d562f678e59ebb09e7f5fb4cc4322700",
       "tags": [
         "bus",
         "communication"
@@ -142,7 +142,7 @@
         "info": "https://github.com/tangb/cleepmod-cleepbus/",
         "site": null
       },
-      "version": "2.2.1"
+      "version": "2.2.2"
     },
     "developer": {
       "author": "Cleep",
@@ -485,5 +485,5 @@
       "version": "1.2.4"
     }
   },
-  "update": 1675934419
+  "update": 1676037873
 }
