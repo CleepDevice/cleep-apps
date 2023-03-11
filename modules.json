@@ -31,30 +31,30 @@
     "audio": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.1.0] - 2022-01-16\n\n### Changed\n- Update app and bcm driver after core changes on audiodriver\n- Improvement to avoid app crash while loading invalid driver\n- Restart Cleep after new audio device has been selected (this allow reset Gstreamer context)\n- Improve code coverage\n\n### Added\n* Add USB driver to handle USB audio hardware",
-      "compat": "cleep<=0.0.29",
-      "confidence": 9.7,
+      "changelog": "## [2.1.1] - 2023-03-10\n\n### Fixed\n- Change log level from error to info when audio driver can't be loaded at startup (surely no hardware)\n- Move default sound files from core in brand new assets directory\n- #1386 error installing \"usb audio driver\" issue\n\n### Changed\n- Improve unit tests",
+      "compat": "cleep<=0.0.30",
+      "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Configure audio on your device",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audio/cleepapp_audio_v2.1.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/audio/cleepapp_audio_v2.1.1.zip",
       "icon": "speaker",
       "label": "Audio",
       "longdescription": "Application that helps you to configure audio on your device",
       "price": null,
-      "quality": 9.84,
-      "sha256": "5927a905740b79da7789dba1ae22a54f8c147838fcbf86c9d256d01e68c7c62e",
+      "quality": 9.65,
+      "sha256": "1a723aade820123c3128bac01693a07f74bba3e73d7550694d3195ef4452c654",
       "tags": [
         "audio",
         "sound"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-audio/issues",
-        "help": "https://github.com/tangb/cleepmod-audio/wiki",
-        "info": "https://github.com/tangb/cleepmod-audio",
+        "bugs": "https://github.com/CleepDevice/cleepapp-audio/issues",
+        "help": "https://github.com/CleepDevice/cleepapp-audio/wiki",
+        "info": "https://github.com/CleepDevice/cleepapp-audio",
         "site": null
       },
-      "version": "2.1.0"
+      "version": "2.1.1"
     },
     "audioplayer": {
       "author": "Cleep",
@@ -120,18 +120,18 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [2.2.3] - 2023-02-12\n### Changed\n- Postinst pyzmq from prebuild version available on cleep-libs-prebuild repo",
-      "compat": "cleep<=0.0.29",
+      "compat": "cleep<=0.0.30",
       "confidence": 9.9,
       "country": null,
       "deps": [],
       "description": "Enables communications between all your Cleep devices through your home network",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.3.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.3.zip",
       "icon": "bus",
       "label": "Cleepbus",
       "longdescription": "Application that enables communication between devices",
       "price": null,
-      "quality": 8.82,
-      "sha256": "ee78cddcedd97afdb5dcd4417061a22251dd1626204b14816516750568da12ab",
+      "quality": 8.77,
+      "sha256": "9dbd25c6e37c641968bc1560104d216181a432237e281097404d3e4940f4a8b2",
       "tags": [
         "bus",
         "communication"
@@ -273,18 +273,18 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## v2.0.3 - 2021-06-06\n\n* Fix tests after core changes",
-      "compat": "cleep<=0.0.29",
+      "compat": "cleep<=0.0.30",
       "confidence": 9.2,
       "country": null,
       "deps": [],
       "description": "Configure how your device connect to your network",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/network/cleepapp_network_v2.0.3.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/network/cleepapp_network_v2.0.3.zip",
       "icon": "ethernet",
       "label": "Network",
       "longdescription": "Application that helps you to configure device network connection",
       "price": null,
       "quality": 8.99,
-      "sha256": "79916b3243ce1468452f2caafd903eb73206bb968cc81a299da5d452e2eb1772",
+      "sha256": "3d1e8f763e8c436faf8ad5b6b7330d7c03e046b420a3245d20843e0cb5a616f2",
       "tags": [
         "wireless",
         "wifi",
@@ -329,19 +329,19 @@
     "parameters": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.1.1] - 2022-02-01\n### Fixed\n- Fix bug detected after new year\n- Fix unit test issue with time lib mock\n- Format files with black",
-      "compat": "cleep<=0.0.29",
-      "confidence": 10,
+      "changelog": "## [2.2.0] - 2023-03-10\n### Changed\n- Clean code\n- Update code after core changes (profiles)\n\n### Added\n- Add function to return current time data",
+      "compat": "cleep<=0.0.30",
+      "confidence": 9.9,
       "country": null,
       "deps": [],
       "description": "Configure generic parameters of your device",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.1.1.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.2.0.zip",
       "icon": "tune-vertical",
       "label": "Parameters",
       "longdescription": "Application that helps you to configure generic parameters of your device",
       "price": null,
-      "quality": 9.36,
-      "sha256": "61577de9dc843ffb725a1c81269b5e5cece7e2983718a8153fd988dfe15ff910",
+      "quality": 9.91,
+      "sha256": "7f8c997be6216bbd3162dc74e881185124cf796b28ccc82f13e1b77cc9b7ac23",
       "tags": [
         "configuration",
         "date",
@@ -350,12 +350,12 @@
         "lang"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-parameters/issues",
+        "bugs": "https://github.com/CleepDevice/cleepapp-parameters/issues",
         "help": null,
-        "info": "https://github.com/tangb/cleepmod-parameters",
+        "info": "https://github.com/CleepDevice/cleepapp-parameters",
         "site": null
       },
-      "version": "2.1.1"
+      "version": "2.2.0"
     },
     "sensors": {
       "author": "Cleep",
@@ -393,19 +393,19 @@
     "system": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.1.2] - 2022-01-25\n### Fixed\n- Move system python dependencies from core\n\n### Added\n- Codemirror CSS from core moved to system app",
-      "compat": "cleep<=0.0.29",
+      "changelog": "## [2.2.0] - 2023-03-09\n### Fixed\n- Led state is not properly restored after a reboot\n\n### Changed\n- Restore original activity led trigger mode to default mode (mmc0) when enabled again\n- Force option added to reboot and halt device functions",
+      "compat": "cleep<=0.0.30",
       "confidence": 7.5,
       "country": null,
       "deps": [],
       "description": "Helps controlling and monitoring the device",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/system/cleepapp_system_v2.1.2.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/system/cleepapp_system_v2.2.0.zip",
       "icon": "heart-pulse",
       "label": "System",
       "longdescription": "Application that helps you to configure your system",
       "price": null,
-      "quality": 9.46,
-      "sha256": "178e21e27f9c6983a42db1da4c424c2b2e3443c7bc4e715e8596cc306151ee53",
+      "quality": 9.91,
+      "sha256": "23cd143e6dea7b386dd647ccc57fcb1217b78b179cc9bdab610ae47e87cc797d",
       "tags": [
         "troubleshoot",
         "monitoring",
@@ -415,12 +415,12 @@
         "backup"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-system/issues",
+        "bugs": "https://github.com/CleepDevice/cleepapp-system/issues",
         "help": null,
-        "info": "https://github.com/tangb/cleepmod-system",
+        "info": "https://github.com/CleepDevice/cleepapp-system",
         "site": null
       },
-      "version": "2.1.2"
+      "version": "2.2.0"
     },
     "teleinfo": {
       "author": "Cleep",
@@ -458,32 +458,32 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.2.4] - 2022-02-22\n### Fixed\n- Fix problem to install dependencies from package",
-      "compat": "cleep<=0.0.29",
-      "confidence": 9.9,
+      "changelog": "## [1.3.0] - 2023-02-12\n### Changed\n- Use new core AppsSources lib to handle multi apps sources",
+      "compat": "cleep<=0.0.30",
+      "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Applications and Cleep updater",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/update/cleepapp_update_v1.2.4.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/update/cleepapp_update_v1.3.0.zip",
       "icon": "update",
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 8.81,
-      "sha256": "4afbc41ddc9ba256aebbcd340649d5e3f435bea1cd31458f715c9db08221b3ef",
+      "quality": 9.76,
+      "sha256": "d7164d37cccc31e3d8031757a7a7625b610ecd2028e8a15e66fa0aaed547b669",
       "tags": [
         "update",
         "application",
         "module"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-update/issues",
+        "bugs": "https://github.com/CleepDevice/cleepapp-update/issues",
         "help": null,
-        "info": "https://github.com/tangb/cleepmod-update",
+        "info": "https://github.com/CleepDevice/cleepapp-update",
         "site": null
       },
-      "version": "1.2.4"
+      "version": "1.3.0"
     }
   },
-  "update": 1676222864
+  "update": 1678548130            
 }
