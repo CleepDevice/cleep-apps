@@ -90,18 +90,18 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [1.1.2] - 2021-07-31\n\n### Fixed\n* Fix random issue due to nv-d3 library loading",
-      "compat": "cleep<=0.0.29",
+      "compat": "cleep<=0.0.30",
       "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Follow easily your sensors values graphically.",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.2.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.2.zip",
       "icon": "chart-areaspline",
       "label": "Charts",
       "longdescription": "Charts application automatically generates charts according to your connected sensors values.<br>It allows you to follow in time the evolution of the measurements of your sensors",
       "price": null,
-      "quality": 8.82,
-      "sha256": "18e8b7aaadb8f14a96476766b174aaf2d1e557afd663f6ec64b9dea867ed75d6",
+      "quality": 8.86,
+      "sha256": "65eecdbdf08ea08a0db7392fdc82b7bbe0e77958f760cf7eb10412090472df3f",
       "tags": [
         "sensors",
         "graphs",
@@ -119,30 +119,30 @@
     "cleepbus": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.2.3] - 2023-02-12\n### Changed\n- Postinst pyzmq from prebuild version available on cleep-libs-prebuild repo",
+      "changelog": "## [2.2.4] - 2023-03-12\n### Changed\n- Improve code quality (lint+black)",
       "compat": "cleep<=0.0.30",
       "confidence": 9.9,
       "country": null,
       "deps": [],
       "description": "Enables communications between all your Cleep devices through your home network",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.3.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.2.4.zip",
       "icon": "bus",
       "label": "Cleepbus",
       "longdescription": "Application that enables communication between devices",
       "price": null,
-      "quality": 8.77,
-      "sha256": "9dbd25c6e37c641968bc1560104d216181a432237e281097404d3e4940f4a8b2",
+      "quality": 9.7,
+      "sha256": "9b389750388f7368935f3214d75167654ab75b45799b8c3c5ae3595799dfc5bf",
       "tags": [
         "bus",
         "communication"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-cleepbus/issues",
+        "bugs": "https://github.com/CleepDevice/cleepapp-cleepbus/issues",
         "help": null,
-        "info": "https://github.com/tangb/cleepmod-cleepbus/",
+        "info": "https://github.com/CleepDevice/cleepapp-cleepbus/",
         "site": null
       },
-      "version": "2.2.3"
+      "version": "2.2.4"
     },
     "developer": {
       "author": "Cleep",
@@ -272,31 +272,31 @@
     "network": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v2.0.3 - 2021-06-06\n\n* Fix tests after core changes",
+      "changelog": "## [2.0.4] - 2023-03-12\n\n* Improve code quality (lint + black)",
       "compat": "cleep<=0.0.30",
       "confidence": 9.2,
       "country": null,
       "deps": [],
       "description": "Configure how your device connect to your network",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/network/cleepapp_network_v2.0.3.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/network/cleepapp_network_v2.0.4.zip",
       "icon": "ethernet",
       "label": "Network",
       "longdescription": "Application that helps you to configure device network connection",
       "price": null,
-      "quality": 8.99,
-      "sha256": "3d1e8f763e8c436faf8ad5b6b7330d7c03e046b420a3245d20843e0cb5a616f2",
+      "quality": 9.84,
+      "sha256": "3960d29c11219ae3e1a3a68167ba60dc53eedf0c0b72240a8ace8604da627c51",
       "tags": [
         "wireless",
         "wifi",
         "ethernet"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-network/issues",
-        "help": "https://github.com/tangb/cleepmod-network/wiki/Help",
-        "info": "https://github.com/tangb/cleepmod-network/wiki",
+        "bugs": "https://github.com/CleepDevice/cleepapp-network/issues",
+        "help": "https://github.com/CleepDevice/cleepapp-network/wiki/Help",
+        "info": "https://github.com/CleepDevice/cleepapp-network/wiki",
         "site": null
       },
-      "version": "2.0.3"
+      "version": "2.0.4"
     },
     "openweathermap": {
       "author": "Cleep",
@@ -485,5 +485,5 @@
       "version": "1.3.0"
     }
   },
-  "update": 1678548130            
+  "update": 1678629810
 }
