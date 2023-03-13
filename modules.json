@@ -59,19 +59,19 @@
     "audioplayer": {
       "author": "Cleep",
       "category": "MEDIA",
-      "changelog": "## [1.1.0] - 2022-01-14\n\n### Added\n\n* Create player silently (do not start music fater player created)\n* Add shuffle playlist option after playlist repeated\n* Improve command parameters checking\n* Add force_play and force_pause to pause_playback command to force player state\n* Add volume parameter to pause_playback to change player volume at once\n* Update event returns internal state instead of Gst state\n\n### Fixed\n\n* Fix issue checking parameters of add_tracks command",
-      "compat": "cleep<=0.0.29",
+      "changelog": "## [1.2.0] - 2023-03-11\n\n### Fixed\n- When playback stopped on UI, player stays alive\n\n### Added\n- Add way to configure repeat/shuffle playlist options at player creation\n- Add function to start playback of specific playlist track",
+      "compat": "cleep<=0.0.30",
       "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Enjoy music playback",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.1.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.2.0.zip",
       "icon": "music-circle",
       "label": "Audioplayer",
-      "longdescription": "This application provides an common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Propagate significative player events</li></ul>",
+      "longdescription": "This application provides a common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Propagate significative player events</li></ul>",
       "price": null,
-      "quality": 9.87,
-      "sha256": "1fe911a1746ea482ec1f102b41f1caf8e6ac3120addba6ee707492ba174d8e08",
+      "quality": 9.75,
+      "sha256": "6714e1ab1464891c5e9906536867a960fcf7b4d4c80cc7e525d7d69c474834f6",
       "tags": [
         "audio",
         "music",
@@ -79,12 +79,12 @@
         "player"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepapp-audioplayer/issues",
+        "bugs": "https://github.com/CleepDevice/cleepapp-audioplayer/issues",
         "help": null,
-        "info": "https://github.com/tangb/cleepapp-audioplayer",
+        "info": "https://github.com/CleepDevice/cleepapp-audioplayer",
         "site": null
       },
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "charts": {
       "author": "Cleep",
@@ -485,5 +485,5 @@
       "version": "1.3.0"
     }
   },
-  "update": 1678734196
+  "update": 1678738205
 }
