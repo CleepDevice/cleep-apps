@@ -3,30 +3,30 @@
     "alarmclock": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.0.0] - 2022-01-15\n\n### Added\n- First release",
-      "compat": "cleep<=0.0.29",
-      "confidence": 8.1,
+      "changelog": "## [1.1.0] - 2023-03-13\n### Added\n- Send unscheduled alarm event\n\n### Changed\n- Improve UI (add edit alarm)\n- Add options to configure repeat and shuffle playlist\n\n### Fixed\n- Fix issue when multiple alarms scheduled for today and tomorrow. Only one was scheduled\n- Fix issue during alarm scheduling",
+      "compat": "cleep<=0.0.30",
+      "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Build your own smart alarm clock",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.0.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.1.0.zip",
       "icon": "alarm",
       "label": "Alarm clock",
       "longdescription": "Configure time to wake up everyday",
       "price": null,
-      "quality": 9.79,
-      "sha256": "a016824dad4d552273f5c1c7a28269aaa5a51ad3d49b03e5d55e3a0d3dd6f8ec",
+      "quality": 9.83,
+      "sha256": "7071a515388ade143867b2bfdcbdf27ea951596132d79d3a7dd8fa9b705eafff",
       "tags": [
         "wakeup",
         "music"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepapp-alarmclock/issues",
+        "bugs": "https://github.com/CleepDevice/cleepapp-alarmclock/issues",
         "help": null,
-        "info": "https://github.com/tangb/cleepapp-alarmclock",
+        "info": "https://github.com/CleepDevice/cleepapp-alarmclock",
         "site": null
       },
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     "audio": {
       "author": "Cleep",
@@ -485,5 +485,5 @@
       "version": "1.3.0"
     }
   },
-  "update": 1678694797
+  "update": 1678734196
 }
