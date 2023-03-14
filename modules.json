@@ -147,19 +147,19 @@
     "developer": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [v3.0.0] - 2021-10-16\n\n### Added\n* Full code coverage\n* Review layout\n\n### Fixed\n* Small issues discovered during unit tests writing\n\n### Removed\n* Functionnalities deported to cleep-cli\n* Logs display that already exists on core system app",
-      "compat": "cleep<=0.0.29",
+      "changelog": "## [3.1.0] - 2023-03-14\n\n### Fixed\n- Handle command failure (return code different from 0)\n- Reset analyze error flag when running new analysis\n- Improve code quality (black+lint)\n\n### Changed\n- Improve app creation: temporarily disable cleep-cli watch and add infos dialog\n- Add some log messages",
+      "compat": "cleep<=0.0.30",
       "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Helps you to develop Cleep applications.",
-      "download": "https://raw.githubusercontent.com/tangb/cleep-apps/main/apps/developer/cleepapp_developer_v3.0.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/developer/cleepapp_developer_v3.1.0.zip",
       "icon": "account-hard-hat",
       "label": "Developer",
       "longdescription": "Developer module helps you to develop on Cleep installing         and preconfiguring sync tools. It also provides a full page that helps you to         check and build your own application.<br/>This module will provide the official way to         publish your module on Cleep market.<br/><br/>Lot of resources are available         on developer module wiki, have a look and start enjoying Cleep!",
       "price": null,
-      "quality": 8.78,
-      "sha256": "2c359326976a63802a1ae654e9eb21ad5eb152c6827dfdaeeaacd06a9869502c",
+      "quality": 9.96,
+      "sha256": "a6d29f5aec6ba1595f279f5e61a38a1883eece3e869cdea75880e24ac2b4bf9e",
       "tags": [
         "developer",
         "python",
@@ -172,12 +172,12 @@
         "documentation"
       ],
       "urls": {
-        "bugs": "https://github.com/tangb/cleepmod-developer/issues",
-        "help": "https://github.com/tangb/cleepmod-developer/wiki",
-        "info": "https://github.com/tangb/cleepmod-developer",
+        "bugs": "https://github.com/CleepDevice/cleepmod-developer/issues",
+        "help": "https://github.com/CleepDevice/cleepmod-developer/wiki",
+        "info": "https://github.com/CleepDevice/cleepmod-developer",
         "site": null
       },
-      "version": "3.0.0"
+      "version": "3.1.0"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -485,5 +485,5 @@
       "version": "1.3.0"
     }
   },
-  "update": 1678800219
+  "update": 1678825426
 }
