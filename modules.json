@@ -460,19 +460,19 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.3.0] - 2023-02-12\n### Changed\n- Use new core AppsSources lib to handle multi apps sources",
-      "compat": "cleep<=0.0.30",
+      "changelog": "## [1.4.0] - 2024-10-12\n### Fixed\n- Fix documentation\n\n### Changed\n- Migrate to Cleep components\n- Update after core changes (TaskFactory)",
+      "compat": "cleep<=0.1.0",
       "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Applications and Cleep updater",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/update/cleepapp_update_v1.3.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/update/cleepapp_update_v1.4.0.zip",
       "icon": "update",
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
-      "quality": 9.76,
-      "sha256": "d7164d37cccc31e3d8031757a7a7625b610ecd2028e8a15e66fa0aaed547b669",
+      "quality": 9.74,
+      "sha256": "c3f9b6f86529445b9f590cabf3235d50895ff5713b169f5675c8ca0c551e86c9",
       "tags": [
         "update",
         "application",
@@ -484,8 +484,8 @@
         "info": "https://github.com/CleepDevice/cleepapp-update",
         "site": null
       },
-      "version": "1.3.0"
+      "version": "1.4.0"
     }
   },
-  "update": 1728665640
+  "update": 1728736380
 }
