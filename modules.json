@@ -3,7 +3,7 @@
     "alarmclock": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.1.0] - 2023-03-13\n### Added\n- Send unscheduled alarm event\n\n### Changed\n- Improve UI (add edit alarm)\n- Add options to configure repeat and shuffle playlist\n\n### Fixed\n- Fix issue when multiple alarms scheduled for today and tomorrow. Only one was scheduled\n- Fix issue during alarm scheduling",
+      "changelog": "## [1.1.0] - 2023-03-13\n### Added\n- Send unscheduled alarm event\n\n### Changed\n- Improve UI (add edit alarm)\n- Add options to configure repeat and shuffle playlist\n\n###\u00a0Fixed\n- Fix issue when multiple alarms scheduled for today and tomorrow. Only one was scheduled\n- Fix issue during alarm scheduling",
       "compat": "cleep<=0.0.30",
       "confidence": 10,
       "country": null,
@@ -182,7 +182,7 @@
     "fourletterdisplay": {
       "author": "Cleep",
       "category": "DRIVER",
-      "changelog": "## [1.1.0] - 2023-03-13\n### Changed\n* Update on_render parameter names according to core\n* Do not display scrolling text. Limit text to 4 chars\n* Optimize hardware module loading\n\n### Fixed\n* Restore last brightness after restart (#1388)\n\n### Added\n* Set time at app startup (#1405)\n* Display alarm indicator (#1406)",
+      "changelog": "## [1.1.0] - 2023-03-13\n### Changed\n* Update on_render parameter names according to core\n* Do not display scrolling text. Limit text to 4 chars\n* Optimize hardware module loading\n\n###\u00a0Fixed\n* Restore last brightness after restart (#1388)\n\n### Added\n* Set time at app startup (#1405)\n* Display alarm indicator (#1406)",
       "compat": "cleep<=0.0.30",
       "confidence": 9.3,
       "country": null,
@@ -272,19 +272,19 @@
     "network": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.0.4] - 2023-03-12\n\n* Improve code quality (lint + black)",
-      "compat": "cleep<=0.0.30",
+      "changelog": "## [2.1.0] - 2024-09-30\n### Fixed\n- Fix documentation\n\n### Changed\n- Use TaskFactory\n\n### Updated\n- Use Cleep config components",
+      "compat": "cleep<=0.1.0",
       "confidence": 9.2,
       "country": null,
       "deps": [],
       "description": "Configure how your device connect to your network",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/network/cleepapp_network_v2.0.4.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/network/cleepapp_network_v2.1.0.zip",
       "icon": "ethernet",
       "label": "Network",
       "longdescription": "Application that helps you to configure device network connection",
       "price": null,
       "quality": 9.84,
-      "sha256": "3960d29c11219ae3e1a3a68167ba60dc53eedf0c0b72240a8ace8604da627c51",
+      "sha256": "dbc6d9e13d3e84842f5034e0d9d0b25e299a25ca0093886b9fca33181386a2d1",
       "tags": [
         "wireless",
         "wifi",
@@ -296,7 +296,7 @@
         "info": "https://github.com/CleepDevice/cleepapp-network/wiki",
         "site": null
       },
-      "version": "2.0.4"
+      "version": "2.1.0"
     },
     "openweathermap": {
       "author": "Cleep",
@@ -487,5 +487,5 @@
       "version": "1.4.0"
     }
   },
-  "update": 1728736380
+  "update": 1728933641
 }
