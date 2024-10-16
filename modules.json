@@ -3,19 +3,19 @@
     "alarmclock": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.1.0] - 2023-03-13\n### Added\n- Send unscheduled alarm event\n\n### Changed\n- Improve UI (add edit alarm)\n- Add options to configure repeat and shuffle playlist\n\n###\u00a0Fixed\n- Fix issue when multiple alarms scheduled for today and tomorrow. Only one was scheduled\n- Fix issue during alarm scheduling",
-      "compat": "cleep<=0.0.30",
+      "changelog": "## [1.2.0] - 2024-01-12\n### Fixed\n- #1410 error with repeat alarm config field while not exists after update\n\n### Added\n- Clock widget is now in app desc file\n\n###\u00a0Changed\n- Migrate to Cleep components\n\n### Removed\n- Angular clock widget",
+      "compat": "cleep<=0.1.0",
       "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Build your own smart alarm clock",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.1.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.2.0.zip",
       "icon": "alarm",
       "label": "Alarm clock",
       "longdescription": "Configure time to wake up everyday",
       "price": null,
       "quality": 9.83,
-      "sha256": "7071a515388ade143867b2bfdcbdf27ea951596132d79d3a7dd8fa9b705eafff",
+      "sha256": "76fb7dac50fc02fa039bc9f3fabbe957220d1f791405cd61f132be0c2a1fe2cd",
       "tags": [
         "wakeup",
         "music"
@@ -26,7 +26,7 @@
         "info": "https://github.com/CleepDevice/cleepapp-alarmclock",
         "site": null
       },
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "audio": {
       "author": "Cleep",
@@ -487,5 +487,5 @@
       "version": "1.4.0"
     }
   },
-  "update": 1729062608
+  "update": 1729066210
 }
