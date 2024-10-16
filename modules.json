@@ -182,19 +182,19 @@
     "fourletterdisplay": {
       "author": "Cleep",
       "category": "DRIVER",
-      "changelog": "## [1.1.0] - 2023-03-13\n### Changed\n* Update on_render parameter names according to core\n* Do not display scrolling text. Limit text to 4 chars\n* Optimize hardware module loading\n\n###\u00a0Fixed\n* Restore last brightness after restart (#1388)\n\n### Added\n* Set time at app startup (#1405)\n* Display alarm indicator (#1406)",
-      "compat": "cleep<=0.0.30",
-      "confidence": 9.3,
+      "changelog": "## [1.2.0] - 2024-10-15\n###\u00a0Fixed\n- Fix documentation\n\n### Updated\n- Use new config components from Cleep core",
+      "compat": "cleep<=0.1.0",
+      "confidence": 9.2,
       "country": null,
       "deps": [],
       "description": "Four-letter pHAT display",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.1.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.2.0.zip",
       "icon": "clock-digital",
       "label": "Fourletterdisplay",
       "longdescription": "This application installs all needed to use Four-letter pHAT from Piromoni.<br>It allows to display informations from your device (like weather temperature, CPU usage and more) through four letters.<br>Long text (more than 4 letters) will scroll automatically and displayed dots can be configured individually.<br>Brightness is also configurable with a night mode with a night mode",
       "price": null,
       "quality": 9.8,
-      "sha256": "a0f912f29ae1a7a929de72af9b90edacc6ca84b733bd58974fd438ab046ed3c0",
+      "sha256": "248b68b22216122b071edff866cff293a06e3511f62933f912383dc7280f687d",
       "tags": [
         "display",
         "pimoroni",
@@ -207,7 +207,7 @@
         "info": "https://github.com/CleepDevice/cleepmod-fourletterhat",
         "site": "https://shop.pimoroni.com/products/four-letter-phat"
       },
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "gpios": {
       "author": "Cleep",
@@ -487,5 +487,5 @@
       "version": "1.4.0"
     }
   },
-  "update": 1728933641
+  "update": 1729062608
 }
