@@ -89,19 +89,19 @@
     "charts": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.1.3] - 2023-03-14\n### Fixed\n- Improve code quality (black+lint)",
-      "compat": "cleep<=0.0.30",
-      "confidence": 10,
+      "changelog": "## [1.2.0] - 2024-10-15\n### Changed\n- Update after core changes (on_event)\n- Move directives to angular components\n\n### Fixed\n- Fix issue in line data generation",
+      "compat": "cleep<=0.1.0",
+      "confidence": 9.9,
       "country": null,
       "deps": [],
       "description": "Follow easily your sensors values graphically.",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.3.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/charts/cleepapp_charts_v1.2.0.zip",
       "icon": "chart-areaspline",
       "label": "Charts",
       "longdescription": "Charts application automatically generates charts according to your connected sensors values.<br>It allows you to follow in time the evolution of the measurements of your sensors",
       "price": null,
       "quality": 9.78,
-      "sha256": "2d4cb16d35d9923d85c597764fdf8f24b56e5d3dca49195e5a9d6ef92ee16d50",
+      "sha256": "9e9a2aa7ab4b7bbe5636c0cf2107167e6f5b09f461c1a708203cf41e72382a81",
       "tags": [
         "sensors",
         "graphs",
@@ -109,12 +109,12 @@
         "database"
       ],
       "urls": {
-        "bugs": "https://github.com/CleepDevice/cleepmod-charts/issues",
-        "help": "https://github.com/CleepDevice/cleepmod-charts/wiki",
-        "info": "https://github.com/CleepDevice/cleepmod-charts",
+        "bugs": "https://github.com/CleepDevice/cleepapp-charts/issues",
+        "help": "https://github.com/CleepDevice/cleepapp-charts/wiki",
+        "info": "https://github.com/CleepDevice/cleepapp-charts",
         "site": null
       },
-      "version": "1.1.3"
+      "version": "1.2.0"
     },
     "cleepbus": {
       "author": "Cleep",
@@ -487,5 +487,5 @@
       "version": "1.4.0"
     }
   },
-  "update": 1729066210
+  "update": 1729087500
 }
