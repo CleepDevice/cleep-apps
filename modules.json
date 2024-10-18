@@ -460,19 +460,19 @@
     "update": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.4.0] - 2024-10-12\n### Fixed\n- Fix documentation\n\n### Changed\n- Migrate to Cleep components\n- Update after core changes (TaskFactory)",
+      "changelog": "## [1.4.1] - 2024-10-18\n### Updated\n- Add log during application installation during compat checks",
       "compat": "cleep<=0.1.0",
       "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Applications and Cleep updater",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/update/cleepapp_update_v1.4.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/update/cleepapp_update_v1.4.1.zip",
       "icon": "update",
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
       "quality": 9.74,
-      "sha256": "c3f9b6f86529445b9f590cabf3235d50895ff5713b169f5675c8ca0c551e86c9",
+      "sha256": "a48d0247cc5f4035a9a63c6f9db65f8ca66a94269f8bb88afd4eef32bc7e4066",
       "tags": [
         "update",
         "application",
@@ -484,8 +484,8 @@
         "info": "https://github.com/CleepDevice/cleepapp-update",
         "site": null
       },
-      "version": "1.4.0"
+      "version": "1.4.1"
     }
   },
-  "update": 1729107804
+  "update": 1729238626
 }
