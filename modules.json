@@ -273,21 +273,21 @@
     "localmusic": {
       "author": "Cleep",
       "category": "MEDIA",
-      "changelog": "## [1.1.0] - 2023-03-13\n### Changed\n- Update storage path according to core changes\n- Add tabs to config page\n\n### Added\n- Keep last playback to restore it even if player destroyed\n- Properly handle alarm creating and destroying player\n- Add button to play playlist directly from app\n- Handle alarm snoozed",
-      "compat": "cleep<=0.0.30",
-      "confidence": 10,
+      "changelog": "## [1.2.0] - 2024-10-15\n### Fixed\n- Fix documentation\n- Fix default playlist when playlist renamed\n\n### Updated\n- Migrate to Cleep components\n- Add ways to move tracks in playlist",
+      "compat": "cleep<=0.1.0",
+      "confidence": 9.9,
       "country": null,
       "deps": [
         "audioplayer"
       ],
       "description": "Create your music playlist with device files",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/localmusic/cleepapp_localmusic_v1.1.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/localmusic/cleepapp_localmusic_v1.2.0.zip",
       "icon": "folder-music-outline",
       "label": "Local music",
       "longdescription": "Create your playlist with music files uploaded to your devices",
       "price": null,
       "quality": 10,
-      "sha256": "911c4735434cf04ae1d7213b8d55eda42e236d3a659e58af81ed866721296d64",
+      "sha256": "c3bc02bfbb1b60a98a05aa17d0e50dc576ed158f75fab3f2586fb61716a2e685",
       "tags": [
         "music",
         "playlist",
@@ -299,7 +299,7 @@
         "info": "https://github.com/CleepDevice/cleepapp-localmusic",
         "site": null
       },
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "network": {
       "author": "Cleep",
@@ -519,5 +519,5 @@
       "version": "1.4.1"
     }
   },
-  "update": 1729669570
+  "update": 1729678901
 }
