@@ -330,6 +330,35 @@
       },
       "version": "2.1.0"
     },
+    "ngrok": {
+      "author": "Cleep",
+      "category": "SERVICE",
+      "changelog": "## [1.0.0] - 2024-10-23\n###\u00a0Added\n- First release",
+      "compat": "cleep<=0.1.0",
+      "confidence": 9.9,
+      "country": null,
+      "deps": [],
+      "description": "Ngrok service connector",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/ngrok/cleepapp_ngrok_v1.0.0.zip",
+      "icon": "arrow-decision",
+      "label": "Ngrok",
+      "longdescription": "Allow your device to be accessible outside from your local network",
+      "price": null,
+      "quality": 9.43,
+      "sha256": "66141c7d12aeb88480869b61f70c93d5c935d9e08bac3381bbb4073dad9573a3",
+      "tags": [
+        "outside",
+        "external",
+        "remote"
+      ],
+      "urls": {
+        "bugs": "https://github.com/CleepDevice/cleepapp-ngrok/issues",
+        "help": "https://github.com/CleepDevice/cleepapp-ngrok/wiki",
+        "info": "https://ngrok.com/",
+        "site": "https://github.com/CleepDevice/cleepapp-ngrok"
+      },
+      "version": "1.0.0"
+    },
     "openweathermap": {
       "author": "Cleep",
       "category": "SERVICE",
@@ -519,5 +548,5 @@
       "version": "1.4.1"
     }
   },
-  "update": 1729678901
+  "update": 1729705190
 }
