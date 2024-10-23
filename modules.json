@@ -59,19 +59,19 @@
     "audioplayer": {
       "author": "Cleep",
       "category": "MEDIA",
-      "changelog": "## [1.2.0] - 2023-03-11\n\n### Fixed\n- When playback stopped on UI, player stays alive\n\n### Added\n- Add way to configure repeat/shuffle playlist options at player creation\n- Add function to start playback of specific playlist track",
-      "compat": "cleep<=0.0.30",
-      "confidence": 10,
+      "changelog": "## [1.3.0] - 2024-10-14\n### Fixed\n- Fix documentation\n\n### Updated\n- Migrate to Cleep components",
+      "compat": "cleep<=0.1.0",
+      "confidence": 9.9,
       "country": null,
       "deps": [],
       "description": "Enjoy music playback",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.2.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.3.0.zip",
       "icon": "music-circle",
       "label": "Audioplayer",
       "longdescription": "This application provides a common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Propagate significative player events</li></ul>",
       "price": null,
-      "quality": 9.75,
-      "sha256": "6714e1ab1464891c5e9906536867a960fcf7b4d4c80cc7e525d7d69c474834f6",
+      "quality": 9.72,
+      "sha256": "8234c7f008ccc4058786dd7a377778289c9128278fd1a8763b39a8836f4456de",
       "tags": [
         "audio",
         "music",
@@ -84,7 +84,7 @@
         "info": "https://github.com/CleepDevice/cleepapp-audioplayer",
         "site": null
       },
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     "charts": {
       "author": "Cleep",
@@ -178,6 +178,38 @@
         "site": null
       },
       "version": "3.1.0"
+    },
+    "filpilote": {
+      "author": "Cleep",
+      "category": "HOMEAUTOMATION",
+      "changelog": "## [1.0.0] - 2024-01-11\n###\u00a0Added\n- First release",
+      "compat": "cleep<=0.1.0",
+      "confidence": 10,
+      "country": "FR",
+      "deps": [
+        "gpios"
+      ],
+      "description": "Control your home heaters using french fil-pilote way",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/filpilote/cleepapp_filpilote_v1.0.0.zip",
+      "icon": "radiator",
+      "label": "Fil-pilote",
+      "longdescription": "TODO",
+      "price": null,
+      "quality": 9.91,
+      "sha256": "c1b8bbaf18657aa96ec716e4907d80ad5b45d8eb2b618a1b63608d63b8e3c970",
+      "tags": [
+        "heater",
+        "pilote",
+        "fil",
+        "chauffage"
+      ],
+      "urls": {
+        "bugs": "https://github.com/CleepDevice/cleepapp-filpilote/issues",
+        "help": "https://github.com/CleepDevice/cleepapp-filpilote/wiki",
+        "info": "https://github.com/CleepDevice/cleepapp-filpilote",
+        "site": "https://fr.wikipedia.org/wiki/Chauffage_%C3%A9lectrique#Fil_pilote"
+      },
+      "version": "1.0.0"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -487,5 +519,5 @@
       "version": "1.4.1"
     }
   },
-  "update": 1729238626
+  "update": 1729669570
 }
