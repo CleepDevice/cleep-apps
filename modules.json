@@ -423,21 +423,21 @@
     "sensors": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## v1.1.0 - 2021-05-24\n\n* Migration to python3\n* Update after core changes\n* Update after gpios changes\n* Improve code quality and confidence",
-      "compat": "cleep<=0.0.30",
+      "changelog": "## [1.2.0] - 2024-10-25\n\n### Changed\n\n- Migrate to Cleep components\n- Use task_factory\n- Improve code quality\n\n\n##\u00a0[1.1.0] - 2021-05-24\n\n### Changed\n\n- Migration to python3\n- Update after core changes\n- Update after gpios changes\n- Improve code quality and confidence",
+      "compat": "cleep<=0.1.0",
       "confidence": 9.9,
       "country": null,
       "deps": [
         "gpios"
       ],
       "description": "Implements easily and quickly sensors like temperature, motion, light...",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/sensors/cleepapp_sensors_v1.1.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/sensors/cleepapp_sensors_v1.2.0.zip",
       "icon": "chip",
       "label": "Sensors",
       "longdescription": "With this module you will be able to follow environment temperature, detect some motion around your device, detect when light level is dim... and trigger some action according to those stimuli.",
       "price": null,
-      "quality": 7.82,
-      "sha256": "42f36a2bb5fa8af99e3bf18001d489f8a3293307500aadfcce74891999b91c72",
+      "quality": 9.86,
+      "sha256": "5f859f5e84ed6683592ea97cd54839bc313125ebd279093dd86aa78b5363b829",
       "tags": [
         "sensors",
         "temperature",
@@ -451,7 +451,7 @@
         "info": "https://github.com/tangb/cleepmod-sensors",
         "site": null
       },
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "system": {
       "author": "Cleep",
@@ -548,5 +548,5 @@
       "version": "1.4.1"
     }
   },
-  "update": 1729714072
+  "update": 1729927971
 }
