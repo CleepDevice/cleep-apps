@@ -119,19 +119,19 @@
     "cleepbus": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [2.3.0] - 2024-03-17\n### Changed\n- Handle netifaces2 breaking changes\n\n### Added\n- Handle RPC config (https)\n- Handle auth",
+      "changelog": "## [2.3.1] - 2024-11-01\n\n### Changed\n- Update pyre-gevent lib to 0.3.1",
       "compat": "cleep<=0.1.0",
       "confidence": 9.8,
       "country": null,
       "deps": [],
       "description": "Enables communications between all your Cleep devices through your home network",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.3.0.zip",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.3.1.zip",
       "icon": "bus",
       "label": "Cleepbus",
       "longdescription": "Application that enables communication between devices",
       "price": null,
-      "quality": 9.85,
-      "sha256": "793b57c692d510e11311439ec0c9a85bba3d2b4064934247154c7f8aad5e49f2",
+      "quality": 9.83,
+      "sha256": "91add3cf28ea99a2a235ded24b391d83867f03ef62fa54b7cabd28b46706a4d1",
       "tags": [
         "bus",
         "communication"
@@ -142,7 +142,7 @@
         "info": "https://github.com/CleepDevice/cleepapp-cleepbus/",
         "site": null
       },
-      "version": "2.3.0"
+      "version": "2.3.1"
     },
     "developer": {
       "author": "Cleep",
@@ -548,5 +548,5 @@
       "version": "1.4.1"
     }
   },
-  "update": 1729927971
+  "update": 1730460797
 }
