@@ -179,6 +179,35 @@
       },
       "version": "3.1.0"
     },
+    "email": {
+      "author": "Cleep",
+      "category": "SERVICE",
+      "changelog": "## [2.0.0] - 2025-04-25\n\n### Changed\n\n- Migrate to Cleep",
+      "compat": "cleep<=0.1.0",
+      "confidence": 10,
+      "country": null,
+      "deps": [],
+      "description": "Sends you alerts by email.",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/email/cleepapp_email_v2.0.0.zip",
+      "icon": "email",
+      "label": "Email",
+      "longdescription": "This module allows your device to send alert by email and other events that occured and should be noticed by your device.<br>This module implements natively connectors to Google Gmail, Yahoo! mail and your own email server.",
+      "price": 0,
+      "quality": 9.53,
+      "sha256": "cf09e4cc4c0c99c17d529aa3e14228d9a6efb87e396faf0d941a911c501eb6cb",
+      "tags": [
+        "email",
+        "smtp",
+        "alert"
+      ],
+      "urls": {
+        "bugs": "https://github.com/tangb/cleepmod-email/issues",
+        "help": "https://github.com/tangb/cleepmod-email/wiki",
+        "info": "https://github.com/tangb/cleepmod-email",
+        "site": null
+      },
+      "version": "2.0.0"
+    },
     "filpilote": {
       "author": "Cleep",
       "category": "HOMEAUTOMATION",
@@ -345,7 +374,7 @@
       "longdescription": "Allow your device to be accessible outside from your local network",
       "price": null,
       "quality": 9.53,
-      "sha256": "348e544517f6fb862d3fb1888d862e2a5c463449c73f8c5367332b097e81ddca",
+      "sha256": "d812450f4b8ca420cc6676dcd68b209f79fe6c2bf263cf1e41cc73ad23337df4",
       "tags": [
         "outside",
         "external",
@@ -548,5 +577,5 @@
       "version": "1.4.1"
     }
   },
-  "update": 1732480286
+  "update": 1745596267
 }
