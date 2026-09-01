@@ -1,0 +1,9 @@
+{
+    "icon": "message-processing",
+    "global": {},
+    "config": {
+        "js": ["mqtt.service.js", "mqtt.config.js"],
+        "html": ["mqtt.config.html"],
+        "css": []
+    }
+}

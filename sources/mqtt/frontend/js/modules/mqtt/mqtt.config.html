@@ -1,0 +1,116 @@
+<div layout="column" layout-padding ng-cloak>
+    <config-section cl-title="Connection"></config-section>
+
+    <config-switch
+        cl-title="Enable MQTT"
+        cl-model="$ctrl.enabled"
+    ></config-switch>
+
+    <config-text
+        cl-title="Broker host"
+        cl-model="$ctrl.host"
+        cl-placeholder="localhost"
+    ></config-text>
+
+    <config-number
+        cl-title="Broker port"
+        cl-model="$ctrl.port"
+        cl-min="1"
+        cl-max="65535"
+    ></config-number>
+
+    <config-text
+        cl-title="Client id"
+        cl-model="$ctrl.clientId"
+        cl-placeholder="cleep"
+    ></config-text>
+
+    <config-text
+        cl-title="Username"
+        cl-model="$ctrl.username"
+        cl-placeholder="Optional username"
+    ></config-text>
+
+    <config-text
+        cl-title="Password"
+        cl-model="$ctrl.password"
+        cl-placeholder="Leave empty to keep current password"
+    ></config-text>
+
+    <config-checkbox
+        cl-title="Use TLS"
+        cl-model="$ctrl.tls"
+    ></config-checkbox>
+
+    <config-checkbox
+        cl-title="Allow insecure TLS certificates"
+        cl-model="$ctrl.insecureTls"
+    ></config-checkbox>
+
+    <config-section cl-title="Messages"></config-section>
+
+    <config-number
+        cl-title="Default QoS"
+        cl-model="$ctrl.defaultQos"
+        cl-min="0"
+        cl-max="2"
+    ></config-number>
+
+    <config-checkbox
+        cl-title="Retain published messages"
+        cl-model="$ctrl.retain"
+    ></config-checkbox>
+
+    <config-basic
+        cl-title="'Subscriptions'"
+        cl-subtitle="'One topic per line. Optionally append QoS, for example: home/# 1'"
+    >
+        <md-input-container>
+            <textarea
+                ng-model="$ctrl.subscriptionsText"
+                rows="5"
+                aria-label="Subscriptions"
+            ></textarea>
+        </md-input-container>
+    </config-basic>
+
+    <config-checkbox
+        cl-title="Publish Cleep events to MQTT"
+        cl-model="$ctrl.publishEvents"
+    ></config-checkbox>
+
+    <config-text
+        cl-title="Event topic prefix"
+        cl-model="$ctrl.eventTopicPrefix"
+        cl-placeholder="cleep/events"
+    ></config-text>
+
+    <config-button
+        cl-title="Save MQTT settings"
+        cl-btn-label="Save"
+        cl-btn-icon="content-save"
+        cl-click="$ctrl.save()"
+    ></config-button>
+
+    <config-section cl-title="Test publish"></config-section>
+
+    <config-text
+        cl-title="Test topic"
+        cl-model="$ctrl.testTopic"
+        cl-placeholder="cleep/test"
+    ></config-text>
+
+    <config-text
+        cl-title="Test payload"
+        cl-model="$ctrl.testPayload"
+        cl-placeholder='{"hello":"cleep"}'
+    ></config-text>
+
+    <config-button
+        cl-title="Publish test message"
+        cl-btn-label="Publish"
+        cl-btn-icon="send"
+        cl-click="$ctrl.publishTest()"
+        cl-disabled="!$ctrl.connected"
+    ></config-button>
+</div>
