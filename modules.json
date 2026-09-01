@@ -575,7 +575,38 @@
         "site": null
       },
       "version": "1.4.1"
+    },
+    "nfcreader": {
+      "author": "Cleep",
+      "category": "DRIVER",
+      "changelog": "## [1.0.0] - 2026-09-01\n\n### Added\n- Add read-only NFC reader module with serial and nfcpy backends\n- Emit nfcreader.tag.detected events when NFC tag UIDs are read\n- Add reader status events and configuration UI\n- Document ISO15693/NFC-V reader requirement for Tonie-style tags",
+      "compat": "cleep<=0.1.2",
+      "confidence": 8.0,
+      "country": null,
+      "deps": [],
+      "description": "Read NFC tag UIDs",
+      "icon": "nfc",
+      "label": "NFC reader",
+      "longdescription": "Reads NFC tag UIDs and emits Cleep events when a tag is detected. For Tonie characters, use reader hardware that supports ISO15693/NFC-V tags.",
+      "price": null,
+      "quality": 8.0,
+      "tags": [
+        "nfc",
+        "rfid",
+        "uid",
+        "toniebox",
+        "iso15693"
+      ],
+      "urls": {
+        "bugs": "https://github.com/CleepDevice/cleep-apps/issues",
+        "help": null,
+        "info": "https://github.com/CleepDevice/cleep-apps",
+        "site": null
+      },
+      "version": "1.0.0",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/nfcreader/cleepapp_nfcreader_v1.0.0.zip",
+      "sha256": "a60190e90b6127ec768af818567da928ef11426ff55d4b92dae8552dbf5bf0f8"
     }
   },
-  "update": 1745596267
+  "update": 1788192000
 }

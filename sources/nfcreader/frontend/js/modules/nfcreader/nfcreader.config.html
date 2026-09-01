@@ -1,0 +1,120 @@
+<div layout="column" layout-padding ng-cloak>
+    <config-section cl-title="Reader"></config-section>
+
+    <config-switch
+        cl-title="Enable NFC reader"
+        cl-model="$ctrl.enabled"
+    ></config-switch>
+
+    <config-select
+        cl-title="Backend"
+        cl-model="$ctrl.backend"
+        cl-options="$ctrl.backends"
+    ></config-select>
+
+    <config-comment
+        cl-title="Compatibility"
+        cl-comment="'Tonie character tags need an ISO15693/NFC-V capable reader. Many ISO14443-only readers cannot read them.'"
+    ></config-comment>
+
+    <config-section cl-title="Serial backend"></config-section>
+
+    <config-text
+        cl-title="Serial port"
+        cl-model="$ctrl.serialPort"
+        cl-placeholder="/dev/ttyUSB0"
+    ></config-text>
+
+    <config-number
+        cl-title="Serial baudrate"
+        cl-model="$ctrl.serialBaudrate"
+        cl-min="1"
+    ></config-number>
+
+    <config-number
+        cl-title="Serial timeout"
+        cl-model="$ctrl.serialTimeout"
+        cl-min="0.1"
+    ></config-number>
+
+    <config-section cl-title="nfcpy backend"></config-section>
+
+    <config-text
+        cl-title="nfcpy path"
+        cl-model="$ctrl.nfcpyPath"
+        cl-placeholder="usb"
+    ></config-text>
+
+    <config-section cl-title="Detection"></config-section>
+
+    <config-number
+        cl-title="Poll delay"
+        cl-model="$ctrl.pollDelay"
+        cl-min="0.05"
+    ></config-number>
+
+    <config-number
+        cl-title="Dedupe seconds"
+        cl-model="$ctrl.dedupeSeconds"
+        cl-min="0"
+    ></config-number>
+
+    <config-checkbox
+        cl-title="Uppercase UIDs"
+        cl-model="$ctrl.uppercase"
+    ></config-checkbox>
+
+    <config-basic
+        cl-title="'Allowed UID prefixes'"
+        cl-subtitle="'Optional. One prefix per line, for example E00403 for common ISO15693 Tonie-style tags.'"
+    >
+        <md-input-container>
+            <textarea
+                ng-model="$ctrl.allowedPrefixesText"
+                rows="4"
+                aria-label="Allowed UID prefixes"
+            ></textarea>
+        </md-input-container>
+    </config-basic>
+
+    <config-button
+        cl-title="Save NFC reader settings"
+        cl-btn-label="Save"
+        cl-btn-icon="content-save"
+        cl-click="$ctrl.save()"
+    ></config-button>
+
+    <config-section cl-title="Status"></config-section>
+
+    <config-button
+        cl-title="Refresh status"
+        cl-btn-label="Refresh"
+        cl-btn-icon="refresh"
+        cl-click="$ctrl.refresh()"
+    ></config-button>
+
+    <config-comment
+        cl-title="Reader"
+        cl-comment="'Running: ' + ($ctrl.readerRunning ? 'yes' : 'no') + ', connected: ' + ($ctrl.readerConnected ? 'yes' : 'no')"
+    ></config-comment>
+
+    <config-comment
+        ng-if="$ctrl.lastError"
+        cl-title="Last error"
+        cl-comment="$ctrl.lastError"
+    ></config-comment>
+
+    <config-comment
+        ng-if="$ctrl.lastTag"
+        cl-title="Last tag UID"
+        cl-comment="$ctrl.lastTag.uid_normalized"
+    ></config-comment>
+
+    <config-button
+        cl-title="Clear last tag"
+        cl-btn-label="Clear"
+        cl-btn-icon="close"
+        cl-click="$ctrl.clearLastTag()"
+        cl-disabled="!$ctrl.lastTag"
+    ></config-button>
+</div>

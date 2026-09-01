@@ -1,0 +1,12 @@
+{
+    "config": {
+        "html": [
+            "nfcreader.config.html"
+        ],
+        "js": [
+            "nfcreader.service.js",
+            "nfcreader.config.js"
+        ]
+    },
+    "icon": "nfc"
+}
