@@ -1,0 +1,28 @@
+{
+  "author": "Cleep",
+  "category": "SERVICE",
+  "changelog": "## [1.0.0] - 2026-09-01\n\n### Added\n- Add MQTT bridge module with publish, subscribe, unsubscribe and settings commands\n- Emit mqtt.message.received events for subscribed MQTT messages\n- Optional forwarding of Cleep events to MQTT topics\n- Add simple configuration UI",
+  "compat": "cleep<=0.1.2",
+  "confidence": 8.0,
+  "country": null,
+  "deps": [],
+  "description": "Send and receive MQTT messages",
+  "icon": "message-processing",
+  "label": "MQTT",
+  "longdescription": "Connects Cleep to an MQTT broker. Other modules can publish MQTT messages through this module, and incoming MQTT messages are exposed as Cleep events.",
+  "price": null,
+  "quality": 8.0,
+  "tags": [
+    "mqtt",
+    "iot",
+    "broker",
+    "messages"
+  ],
+  "urls": {
+    "bugs": "https://github.com/CleepDevice/cleep-apps/issues",
+    "help": null,
+    "info": "https://github.com/CleepDevice/cleep-apps",
+    "site": "https://mqtt.org/"
+  },
+  "version": "1.0.0"
+}
