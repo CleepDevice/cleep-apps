@@ -89,7 +89,7 @@
     "charts": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [1.1.4] - 2023-03-14\n### Fixed\n- Improve code quality (black+lint)",
+      "changelog": "## [1.1.5] - 2023-03-14\n### Fixed\n- Improve code quality (black+lint)",
       "compat": "cleep<=0.1.2",
       "confidence": 9.8,
       "country": null,
@@ -112,9 +112,9 @@
         "info": "https://github.com/CleepDevice/cleepmod-charts",
         "site": null
       },
-      "version": "1.1.4",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.4.zip",
-      "sha256": "1d056382852ff27a74713a5df57d08f820ef493e5a2a3d80da70e5850aac41ae"
+      "version": "1.1.5",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.5.zip",
+      "sha256": "9a81d4fa8acfab803380d76eaaa785f0e78f7060f234be79351f7c73750c609d"
     },
     "cleepbus": {
       "author": "Cleep",
