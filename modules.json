@@ -551,18 +551,16 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [1.4.1] - 2024-10-18\n### Updated\n- Add log during application installation during compat checks",
-      "compat": "cleep<=0.1.0",
+      "compat": "cleep<=0.1.3",
       "confidence": 10,
       "country": null,
       "deps": [],
       "description": "Applications and Cleep updater",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/update/cleepapp_update_v1.4.1.zip",
       "icon": "update",
       "label": "Update",
       "longdescription": "Manage all Cleep applications and Cleep core updates.",
       "price": null,
       "quality": 9.74,
-      "sha256": "a48d0247cc5f4035a9a63c6f9db65f8ca66a94269f8bb88afd4eef32bc7e4066",
       "tags": [
         "update",
         "application",
@@ -574,7 +572,9 @@
         "info": "https://github.com/CleepDevice/cleepapp-update",
         "site": null
       },
-      "version": "1.4.1"
+      "version": "1.4.1",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/update/cleepapp_update_v1.4.1.zip",
+      "sha256": "823712644bf4801f7179b40bf51ca53c085f997679b20ade902dc40d1fafb01a"
     }
   },
   "update": 1745596267
