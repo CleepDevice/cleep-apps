@@ -120,18 +120,16 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [2.3.1] - 2024-11-01\n\n### Changed\n- Update pyre-gevent lib to 0.3.1",
-      "compat": "cleep<=0.1.0",
+      "compat": "cleep<=0.1.3",
       "confidence": 9.8,
       "country": null,
       "deps": [],
       "description": "Enables communications between all your Cleep devices through your home network",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.3.1.zip",
       "icon": "bus",
       "label": "Cleepbus",
       "longdescription": "Application that enables communication between devices",
       "price": null,
       "quality": 9.83,
-      "sha256": "91add3cf28ea99a2a235ded24b391d83867f03ef62fa54b7cabd28b46706a4d1",
       "tags": [
         "bus",
         "communication"
@@ -142,7 +140,9 @@
         "info": "https://github.com/CleepDevice/cleepapp-cleepbus/",
         "site": null
       },
-      "version": "2.3.1"
+      "version": "2.3.1",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.3.1.zip",
+      "sha256": "411766c58fe72f6fc3c06ffd58454606924e48173c75becf8247865d8f4245d2"
     },
     "developer": {
       "author": "Cleep",
