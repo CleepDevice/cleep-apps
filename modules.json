@@ -420,18 +420,16 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [2.3.1] - 2024-11-08\n\n### Fixed\n\n- Install system dependencies in Cleep",
-      "compat": "cleep<=0.1.0",
+      "compat": "cleep<=0.1.3",
       "confidence": 9.7,
       "country": null,
       "deps": [],
       "description": "Configure generic parameters of your device",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.3.1.zip",
       "icon": "tune-vertical",
       "label": "Parameters",
       "longdescription": "Application that helps you to configure generic parameters of your device",
       "price": null,
       "quality": 9.81,
-      "sha256": "4851169a2f0c78edf98ef05a7849291101960a74d9460a6300434b2ceb0bb775",
       "tags": [
         "configuration",
         "date",
@@ -447,7 +445,9 @@
         "info": "https://github.com/CleepDevice/cleepapp-parameters",
         "site": null
       },
-      "version": "2.3.1"
+      "version": "2.3.1",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.3.1.zip",
+      "sha256": "f67a630a50e068712223ccc4912b97154c0b0cbf41669cca96a11fffd4971d47"
     },
     "sensors": {
       "author": "Cleep",
