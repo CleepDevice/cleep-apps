@@ -486,18 +486,16 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [2.3.0] - 2024-09-30\n### Fixed\n- Fix documentation\n\n### Changed\n- Move monitoring widget to desc.json file\n- Migrate drivers directive to config-drivers component\n- Add new config-code component\n- Update config to new Cleep components\n- Improve monitoring (show/hide widgets, disable tasks)\n- Use TaskFactory",
-      "compat": "cleep<=0.1.0",
-      "confidence": 7.4,
+      "compat": "cleep<=0.1.3",
+      "confidence": 7.5,
       "country": null,
       "deps": [],
       "description": "Helps controlling and monitoring the device",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/system/cleepapp_system_v2.3.0.zip",
       "icon": "heart-pulse",
       "label": "System",
       "longdescription": "Application that helps you to configure your system",
       "price": null,
       "quality": 9.7,
-      "sha256": "d3605867028767c3964966f61ea29cf3d7eb70de51e2d7ca0cb065a08237f418",
       "tags": [
         "troubleshoot",
         "monitoring",
@@ -512,7 +510,9 @@
         "info": "https://github.com/CleepDevice/cleepapp-system",
         "site": null
       },
-      "version": "2.3.0"
+      "version": "2.3.0",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/system/cleepapp_system_v2.3.0.zip",
+      "sha256": "89992a1e325305f6d627aca7e459359d2c5b1c68f861796fcc62f445d0e6b990"
     },
     "teleinfo": {
       "author": "Cleep",
