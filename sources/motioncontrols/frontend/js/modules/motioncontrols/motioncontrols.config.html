@@ -1,0 +1,149 @@
+<div layout="column" layout-padding ng-cloak>
+    <config-section cl-title="Sensor"></config-section>
+
+    <config-switch
+        cl-title="Enable motion controls"
+        cl-model="$ctrl.enabled"
+    ></config-switch>
+
+    <config-comment
+        cl-title="LSM6DSOX over I2C"
+        cl-comment="'Use an LSM6DSOX breakout wired to Raspberry Pi I2C: SDA on GPIO2/pin 3, SCL on GPIO3/pin 5, plus 3.3V or board-supported VIN and GND.'"
+    ></config-comment>
+
+    <config-text
+        cl-title="I2C address"
+        cl-model="$ctrl.i2cAddressText"
+        cl-placeholder="0x6A"
+    ></config-text>
+
+    <config-number
+        cl-title="Sample rate"
+        cl-model="$ctrl.sampleRateHz"
+        cl-min="25"
+        cl-max="400"
+    ></config-number>
+
+    <config-section cl-title="Rotation"></config-section>
+
+    <config-comment
+        cl-title="Detected rotations"
+        cl-comment="'Right, left, front, and back rotations are detected from tilt angle and require the angle to be held briefly before an event is emitted.'"
+    ></config-comment>
+
+    <config-number
+        cl-title="Angle threshold"
+        cl-model="$ctrl.rotationAngleDeg"
+        cl-min="5"
+        cl-max="85"
+    ></config-number>
+
+    <config-number
+        cl-title="Angle hysteresis"
+        cl-model="$ctrl.rotationHysteresisDeg"
+        cl-min="0"
+    ></config-number>
+
+    <config-number
+        cl-title="Hold time"
+        cl-model="$ctrl.rotationHoldMs"
+        cl-min="0"
+    ></config-number>
+
+    <config-number
+        cl-title="Rotation cooldown"
+        cl-model="$ctrl.rotationCooldownMs"
+        cl-min="0"
+    ></config-number>
+
+    <config-section cl-title="Tap"></config-section>
+
+    <config-comment
+        cl-title="Detected taps"
+        cl-comment="'Right side, left side, and top taps are detected from short acceleration impulses. Tune threshold and axis ratio after the sensor is mounted in the final enclosure.'"
+    ></config-comment>
+
+    <config-number
+        cl-title="Tap threshold"
+        cl-model="$ctrl.tapThresholdG"
+        cl-min="0.1"
+    ></config-number>
+
+    <config-number
+        cl-title="Tap axis ratio"
+        cl-model="$ctrl.tapAxisRatio"
+        cl-min="1"
+    ></config-number>
+
+    <config-number
+        cl-title="Tap cooldown"
+        cl-model="$ctrl.tapCooldownMs"
+        cl-min="0"
+    ></config-number>
+
+    <config-number
+        cl-title="Ignore taps above tilt"
+        cl-model="$ctrl.tapMaxTiltDeg"
+        cl-min="0"
+    ></config-number>
+
+    <config-number
+        cl-title="Maximum tap gyro"
+        cl-model="$ctrl.tapMaxGyroDps"
+        cl-min="1"
+    ></config-number>
+
+    <config-number
+        cl-title="Gravity filter alpha"
+        cl-model="$ctrl.gravityAlpha"
+        cl-min="0.01"
+        cl-max="1"
+    ></config-number>
+
+    <config-select
+        cl-title="Positive X tap side"
+        cl-model="$ctrl.positiveXTapSide"
+        cl-options="$ctrl.positiveXOptions"
+    ></config-select>
+
+    <config-button
+        cl-title="Save motion control settings"
+        cl-btn-label="Save"
+        cl-btn-icon="content-save"
+        cl-click="$ctrl.save()"
+    ></config-button>
+
+    <config-section cl-title="Status"></config-section>
+
+    <config-button
+        cl-title="Refresh status"
+        cl-btn-label="Refresh"
+        cl-btn-icon="refresh"
+        cl-click="$ctrl.refresh()"
+    ></config-button>
+
+    <config-comment
+        cl-title="Sensor"
+        cl-comment="'Running: ' + ($ctrl.readerRunning ? 'yes' : 'no') + ', connected: ' + ($ctrl.connected ? 'yes' : 'no')"
+    ></config-comment>
+
+    <config-comment
+        ng-if="$ctrl.lastError"
+        cl-title="Last error"
+        cl-comment="$ctrl.lastError"
+    ></config-comment>
+
+    <config-comment
+        ng-if="$ctrl.lastMotion"
+        cl-title="Last motion"
+        cl-comment="$ctrl.lastMotion.type + ': ' + ($ctrl.lastMotion.direction || $ctrl.lastMotion.side)"
+    ></config-comment>
+
+    <config-button
+        cl-title="Clear last motion"
+        cl-btn-label="Clear"
+        cl-btn-icon="close"
+        cl-click="$ctrl.clearLastMotion()"
+        cl-disabled="!$ctrl.lastMotion"
+    ></config-button>
+</div>

@@ -1,0 +1,30 @@
+{
+  "author": "Cleep",
+  "category": "DRIVER",
+  "changelog": "## [1.0.0] - 2026-09-06\n\n### Added\n- Add LSM6DSOX motion controls module for Raspberry Pi over I2C\n- Detect right, left, front, and back rotations from filtered tilt angle\n- Detect right side, left side, and top taps from acceleration impulses\n- Emit motioncontrols.rotation.detected, motioncontrols.tap.detected, and motioncontrols.status.changed events\n- Add configurable thresholds, cooldowns, and setup notes for noise tuning",
+  "compat": "cleep<=0.1.3",
+  "confidence": 8.0,
+  "country": null,
+  "deps": [],
+  "description": "Detect tilt and tap gestures",
+  "icon": "rotate-3d",
+  "label": "Motion controls",
+  "longdescription": "Detects right, left, front, and back rotations plus right side, left side, and top taps using an LSM6DSOX accelerometer/gyroscope breakout over I2C. This is intended for local device controls such as fast-forward on right rotation, next track on right tap, previous track on left tap, and pause/play on top tap.",
+  "price": null,
+  "quality": 8.0,
+  "tags": [
+    "motion",
+    "imu",
+    "gyroscope",
+    "accelerometer",
+    "lsm6dsox",
+    "gestures"
+  ],
+  "urls": {
+    "bugs": "https://github.com/CleepDevice/cleep-apps/issues",
+    "help": null,
+    "info": "https://github.com/CleepDevice/cleep-apps",
+    "site": "https://www.st.com/en/mems-and-sensors/lsm6dsox.html"
+  },
+  "version": "1.0.0"
+}

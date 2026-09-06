@@ -1,0 +1,12 @@
+{
+    "config": {
+        "html": [
+            "motioncontrols.config.html"
+        ],
+        "js": [
+            "motioncontrols.service.js",
+            "motioncontrols.config.js"
+        ]
+    },
+    "icon": "rotate-3d"
+}
