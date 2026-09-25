@@ -447,7 +447,7 @@
       },
       "version": "2.3.1",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/parameters/cleepapp_parameters_v2.3.1.zip",
-      "sha256": "f67a630a50e068712223ccc4912b97154c0b0cbf41669cca96a11fffd4971d47"
+      "sha256": "16d616cddad010a4f49b1f13f0701133e79b20a994d5ba1196142726ce63a323"
     },
     "sensors": {
       "author": "Cleep",
