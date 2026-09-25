@@ -26,7 +26,7 @@
       },
       "version": "1.2.0",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/alarmclock/cleepapp_alarmclock_v1.2.0.zip",
-      "sha256": "66a3d44885cade31fd94a3dfaf5e52569876e29ccc9976fa91268b21bd112547"
+      "sha256": "5896d460ce5cf27b03bae963094479355fce322b24304e694e275812df82e755"
     },
     "audio": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "ba061c76d4815466345c908dce84700608cab3c82d73bcce867bad68658fe91c"
     }
   },
-  "update": 1790345323
+  "update": 1790346636
 }
