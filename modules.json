@@ -90,7 +90,7 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [1.1.5] - 2023-03-14\n### Fixed\n- Improve code quality (black+lint)",
-      "compat": "cleep<=0.1.2",
+      "compat": "cleep<=0.1.3",
       "confidence": 9.8,
       "country": null,
       "deps": [],
@@ -114,7 +114,7 @@
       },
       "version": "1.1.5",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/charts/cleepapp_charts_v1.1.5.zip",
-      "sha256": "9a81d4fa8acfab803380d76eaaa785f0e78f7060f234be79351f7c73750c609d"
+      "sha256": "1f2b03699429bd65e8c25756af0e1fe3b6a5f57e6a55f999230c2589c8298c03"
     },
     "cleepbus": {
       "author": "Cleep",
