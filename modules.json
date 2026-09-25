@@ -268,7 +268,7 @@
       },
       "version": "1.2.0",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/fourletterdisplay/cleepapp_fourletterdisplay_v1.2.0.zip",
-      "sha256": "7f342da3201a22e95cd73e7f00dc5650700b34451719bbf5a6076bcb485c9f54"
+      "sha256": "8a16659980967f0d162926809f5a2c80de2cbb5b4f6bb55efee9fc5c75ae9c52"
     },
     "gpios": {
       "author": "Cleep",
