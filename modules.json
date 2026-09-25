@@ -357,7 +357,7 @@
       },
       "version": "2.1.0",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/network/cleepapp_network_v2.1.0.zip",
-      "sha256": "2a9399d128af6dfe1dc89e274de876c59270c152f6a13e7914da065387f08c6f"
+      "sha256": "23ab56be7c54cdb4ce205a1381278e5ef072ca1c4a92118b90c1e00dda460ce7"
     },
     "ngrok": {
       "author": "Cleep",
