@@ -486,7 +486,7 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [2.3.0] - 2024-09-30\n### Fixed\n- Fix documentation\n\n### Changed\n- Move monitoring widget to desc.json file\n- Migrate drivers directive to config-drivers component\n- Add new config-code component\n- Update config to new Cleep components\n- Improve monitoring (show/hide widgets, disable tasks)\n- Use TaskFactory",
-      "compat": "cleep<=0.1.3",
+      "compat": "cleep<=0.1.4",
       "confidence": 7.5,
       "country": null,
       "deps": [],
@@ -512,7 +512,7 @@
       },
       "version": "2.3.0",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/system/cleepapp_system_v2.3.0.zip",
-      "sha256": "79b33e968eecbf20ae0c58d6e0dd39d4b8fdea15d3c3e269ffcb137f7b197b5a"
+      "sha256": "c6ff07c42a173bed39e1570853150a60370e2a928a4f6364876e62a6360a9a06"
     },
     "teleinfo": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "ba061c76d4815466345c908dce84700608cab3c82d73bcce867bad68658fe91c"
     }
   },
-  "update": 1790584496
+  "update": 1790584552
 }
