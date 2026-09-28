@@ -120,7 +120,7 @@
       "author": "Cleep",
       "category": "APPLICATION",
       "changelog": "## [2.3.1] - 2024-11-01\n\n### Changed\n- Update pyre-gevent lib to 0.3.1",
-      "compat": "cleep<=0.1.3",
+      "compat": "cleep<=0.1.4",
       "confidence": 9.8,
       "country": null,
       "deps": [],
@@ -142,7 +142,7 @@
       },
       "version": "2.3.1",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/cleepbus/cleepapp_cleepbus_v2.3.1.zip",
-      "sha256": "6f6d64609293e8101cab4d6303b841ad7fd1de7ed09b3b4c3d8b9ee0fe243a94"
+      "sha256": "b8239878364da20e71b5b5627de6093d766b28b34280763eddf4295200c550ab"
     },
     "developer": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "18927d9f19ca0a160a1686d06b9c7a2601f1a2831294d3748634c45885abb8d5"
     }
   },
-  "update": 1790584953
+  "update": 1790585266
 }
