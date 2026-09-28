@@ -177,7 +177,7 @@
       },
       "version": "3.2.0",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/developer/cleepapp_developer_v3.2.0.zip",
-      "sha256": "0c1f0f17ace36aec7df7cc24e0f0acddc72e4dea487389d891c6bc774f8d6e71"
+      "sha256": "df89e4a14fbdc0fcfaaab6c58f48ef56d79945887862d79b0b8f2b3c600f2ea3"
     },
     "email": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "18927d9f19ca0a160a1686d06b9c7a2601f1a2831294d3748634c45885abb8d5"
     }
   },
-  "update": 1790591940
+  "update": 1790596248
 }
