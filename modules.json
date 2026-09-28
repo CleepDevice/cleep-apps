@@ -212,20 +212,18 @@
       "author": "Cleep",
       "category": "HOMEAUTOMATION",
       "changelog": "## [1.0.0] - 2024-01-11\n###\u00a0Added\n- First release",
-      "compat": "cleep<=0.1.0",
+      "compat": "cleep<=0.1.4",
       "confidence": 10,
       "country": "FR",
       "deps": [
         "gpios"
       ],
       "description": "Control your home heaters using french fil-pilote way",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/filpilote/cleepapp_filpilote_v1.0.0.zip",
       "icon": "radiator",
       "label": "Fil-pilote",
       "longdescription": "TODO",
       "price": null,
       "quality": 9.91,
-      "sha256": "c1b8bbaf18657aa96ec716e4907d80ad5b45d8eb2b618a1b63608d63b8e3c970",
       "tags": [
         "heater",
         "pilote",
@@ -238,7 +236,9 @@
         "info": "https://github.com/CleepDevice/cleepapp-filpilote",
         "site": "https://fr.wikipedia.org/wiki/Chauffage_%C3%A9lectrique#Fil_pilote"
       },
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/filpilote/cleepapp_filpilote_v1.0.0.zip",
+      "sha256": "92af9c2e271e518fee79a1f39c5ff01ee8d753c1fc86b17f75e811bd9fd18725"
     },
     "fourletterdisplay": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "18927d9f19ca0a160a1686d06b9c7a2601f1a2831294d3748634c45885abb8d5"
     }
   },
-  "update": 1790585943
+  "update": 1790586239
 }
