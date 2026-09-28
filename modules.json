@@ -54,7 +54,7 @@
       },
       "version": "2.2.1",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/audio/cleepapp_audio_v2.2.1.zip",
-      "sha256": "fa3415e2d0b22c131c5cfb37e55ce3a6a2fd5732fd49858c270ecb7a7d43d849"
+      "sha256": "419c339335867cb3038ec993915a30fd24f3b8a6894aa431ff6e2b339b2dcd41"
     },
     "audioplayer": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "ba061c76d4815466345c908dce84700608cab3c82d73bcce867bad68658fe91c"
     }
   },
-  "update": 1790346636
+  "update": 1790580131
 }
