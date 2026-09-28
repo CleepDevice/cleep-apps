@@ -303,20 +303,18 @@
       "author": "Cleep",
       "category": "MEDIA",
       "changelog": "## [1.2.0] - 2024-10-15\n### Fixed\n- Fix documentation\n- Fix default playlist when playlist renamed\n\n### Updated\n- Migrate to Cleep components\n- Add ways to move tracks in playlist",
-      "compat": "cleep<=0.1.0",
+      "compat": "cleep<=0.1.4",
       "confidence": 9.9,
       "country": null,
       "deps": [
         "audioplayer"
       ],
       "description": "Create your music playlist with device files",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/localmusic/cleepapp_localmusic_v1.2.0.zip",
       "icon": "folder-music-outline",
       "label": "Local music",
       "longdescription": "Create your playlist with music files uploaded to your devices",
       "price": null,
       "quality": 10,
-      "sha256": "c3bc02bfbb1b60a98a05aa17d0e50dc576ed158f75fab3f2586fb61716a2e685",
       "tags": [
         "music",
         "playlist",
@@ -328,7 +326,9 @@
         "info": "https://github.com/CleepDevice/cleepapp-localmusic",
         "site": null
       },
-      "version": "1.2.0"
+      "version": "1.2.0",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/localmusic/cleepapp_localmusic_v1.2.0.zip",
+      "sha256": "88d9c63c8bcd8849cd7b32073dd008fa44f9cc072b1d531de1a3de84a4cf10aa"
     },
     "network": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "18927d9f19ca0a160a1686d06b9c7a2601f1a2831294d3748634c45885abb8d5"
     }
   },
-  "update": 1790585266
+  "update": 1790585943
 }
