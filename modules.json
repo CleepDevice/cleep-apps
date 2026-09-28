@@ -147,19 +147,17 @@
     "developer": {
       "author": "Cleep",
       "category": "APPLICATION",
-      "changelog": "## [3.1.0] - 2023-03-14\n\n### Fixed\n- Handle command failure (return code different from 0)\n- Reset analyze error flag when running new analysis\n- Improve code quality (black+lint)\n\n### Changed\n- Improve app creation: temporarily disable cleep-cli watch and add infos dialog\n- Add some log messages",
-      "compat": "cleep<=0.0.30",
-      "confidence": 10,
+      "changelog": "## [3.2.0] - 2026-09-25\n### Added\n- Check application documentation before generating release archive\n- Add breaking changes detection feature\n\n### Updated\n- Change documentation tab using new doc core command\n- Bump cleepcli to v1.43.9\n- Improve UI\n- Migrate to Cleep components\n\n###\u00a0Fixed\n- When last coverage report button is clicked all buttons remain disabled\n- Tests execution return_code is displayed instead of number in result output",
+      "compat": "cleep<=0.1.4",
+      "confidence": 8.7,
       "country": null,
       "deps": [],
       "description": "Helps you to develop Cleep applications.",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/developer/cleepapp_developer_v3.1.0.zip",
       "icon": "account-hard-hat",
       "label": "Developer",
       "longdescription": "Developer module helps you to develop on Cleep installing         and preconfiguring sync tools. It also provides a full page that helps you to         check and build your own application.<br/>This module will provide the official way to         publish your module on Cleep market.<br/><br/>Lot of resources are available         on developer module wiki, have a look and start enjoying Cleep!",
       "price": null,
-      "quality": 9.96,
-      "sha256": "a6d29f5aec6ba1595f279f5e61a38a1883eece3e869cdea75880e24ac2b4bf9e",
+      "quality": 9.84,
       "tags": [
         "developer",
         "python",
@@ -177,7 +175,9 @@
         "info": "https://github.com/CleepDevice/cleepmod-developer",
         "site": null
       },
-      "version": "3.1.0"
+      "version": "3.2.0",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/developer/cleepapp_developer_v3.2.0.zip",
+      "sha256": "0c1f0f17ace36aec7df7cc24e0f0acddc72e4dea487389d891c6bc774f8d6e71"
     },
     "email": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "18927d9f19ca0a160a1686d06b9c7a2601f1a2831294d3748634c45885abb8d5"
     }
   },
-  "update": 1790586239
+  "update": 1790591940
 }
