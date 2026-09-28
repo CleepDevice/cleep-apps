@@ -274,7 +274,7 @@
       "author": "Cleep",
       "category": "DRIVER",
       "changelog": "## [1.2.1] - 2024-11-21\n\n### Fixed\n- Fix status turning on/off output\n- Fix odd/even pins on gpios ui component that was inversed",
-      "compat": "cleep<=0.1.3",
+      "compat": "cleep<=0.1.4",
       "confidence": 9.7,
       "country": null,
       "deps": [],
@@ -297,7 +297,7 @@
       },
       "version": "1.2.1",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/gpios/cleepapp_gpios_v1.2.1.zip",
-      "sha256": "4a7308b979742ca65924a66965146aa6c055da0f33169cbfd8359e2d08d4ad64"
+      "sha256": "0921e8c4b787e66ae533ea48855dba9c7ab19fc9d6db3dfe9c8dcb171ebadfaa"
     },
     "localmusic": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "ba061c76d4815466345c908dce84700608cab3c82d73bcce867bad68658fe91c"
     }
   },
-  "update": 1790584387
+  "update": 1790584421
 }
