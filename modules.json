@@ -183,7 +183,7 @@
       "author": "Cleep",
       "category": "SERVICE",
       "changelog": "## [2.0.0] - 2025-04-25\n\n### Changed\n\n- Migrate to Cleep",
-      "compat": "cleep<=0.1.3",
+      "compat": "cleep<=0.1.4",
       "confidence": 10,
       "country": null,
       "deps": [],
@@ -206,7 +206,7 @@
       },
       "version": "2.0.0",
       "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/email/cleepapp_email_v2.0.0.zip",
-      "sha256": "3bbd3373791612c557d3c229cc2c1e505836be919a4e61d208d36c52cf6c41a6"
+      "sha256": "ee61d8ede59bee5261248b69953a12f46a0b56d8c8ddf23aa9af95024a14f6e8"
     },
     "filpilote": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "ba061c76d4815466345c908dce84700608cab3c82d73bcce867bad68658fe91c"
     }
   },
-  "update": 1790581187
+  "update": 1790581654
 }
