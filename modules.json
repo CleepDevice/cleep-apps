@@ -59,7 +59,7 @@
     "audioplayer": {
       "author": "Cleep",
       "category": "MEDIA",
-      "changelog": "## [1.3.0] - 2024-10-14\n### Fixed\n- Fix documentation\n\n### Updated\n- Migrate to Cleep components",
+      "changelog": "## [1.4.0] - 2026-09-11\n### Changed\n- Replace manual GStreamer pipelines with playbin (simpler internals, format auto-detection)\n- Reuse playbin instance across tracks and pause/resume for faster playback resume\n\n### Added\n- Configurable fade-in / fade-out durations (`set_fade` command)\n- Internal audio sink selection (auto/alsa) for future hardware app integration\n- Auto-recreate playbin on failed resume, restoring track position",
       "compat": "cleep<=0.1.4",
       "confidence": 9.9,
       "country": null,
@@ -67,9 +67,9 @@
       "description": "Enjoy music playback",
       "icon": "music-circle",
       "label": "Audioplayer",
-      "longdescription": "This application provides a common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Propagate significative player events</li></ul>",
+      "longdescription": "This application provides a common way to play audio media on your device.<br>Application features: <ul><li>Play most used audio formats (mp3, flac, ogg and aac)</li><li>Play local file and remote streams</li><li>Read audio metadata when available</li><li>Implement minimalist player playlist</li><li>Fade in/out support</li><li>Propagate significative player events</li></ul>",
       "price": null,
-      "quality": 9.72,
+      "quality": 9.8,
       "tags": [
         "audio",
         "music",
@@ -82,9 +82,9 @@
         "info": "https://github.com/CleepDevice/cleepapp-audioplayer",
         "site": null
       },
-      "version": "1.3.0",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.3.0.zip",
-      "sha256": "213400a7236accb285c254ceca7a3a657e15e4d556d3d2234aa42d225e5ee7cf"
+      "version": "1.4.0",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/audioplayer/cleepapp_audioplayer_v1.4.0.zip",
+      "sha256": "73d8d70ac823f8553954c0487be6c27ad722bcd544345068b522a05dca2562ec"
     },
     "charts": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "18927d9f19ca0a160a1686d06b9c7a2601f1a2831294d3748634c45885abb8d5"
     }
   },
-  "update": 1790596248
+  "update": 1791112277
 }
