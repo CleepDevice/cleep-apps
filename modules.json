@@ -302,9 +302,9 @@
     "localmusic": {
       "author": "Cleep",
       "category": "MEDIA",
-      "changelog": "## [1.2.0] - 2024-10-15\n### Fixed\n- Fix documentation\n- Fix default playlist when playlist renamed\n\n### Updated\n- Migrate to Cleep components\n- Add ways to move tracks in playlist",
+      "changelog": "## [1.3.0] - 2026-09-11\n\n### Changed\n\n- Keep playlist position in mind to not restart it again at beginning\n\n### Fixed\n\n- Fix sort playlist songs issue",
       "compat": "cleep<=0.1.4",
-      "confidence": 9.9,
+      "confidence": 9.5,
       "country": null,
       "deps": [
         "audioplayer"
@@ -326,9 +326,9 @@
         "info": "https://github.com/CleepDevice/cleepapp-localmusic",
         "site": null
       },
-      "version": "1.2.0",
-      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/localmusic/cleepapp_localmusic_v1.2.0.zip",
-      "sha256": "88d9c63c8bcd8849cd7b32073dd008fa44f9cc072b1d531de1a3de84a4cf10aa"
+      "version": "1.3.0",
+      "download": "https://raw.githubusercontent.com/CleepDevice/cleep-apps/main/apps/localmusic/cleepapp_localmusic_v1.3.0.zip",
+      "sha256": "00b132cb0b73845fb8fa349235acd237620e6d5a8a2364b809bbed0e08ebad56"
     },
     "network": {
       "author": "Cleep",
@@ -577,5 +577,5 @@
       "sha256": "18927d9f19ca0a160a1686d06b9c7a2601f1a2831294d3748634c45885abb8d5"
     }
   },
-  "update": 1791112277
+  "update": 1791186214
 }
